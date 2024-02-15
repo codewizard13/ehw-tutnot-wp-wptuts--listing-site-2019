@@ -2,17 +2,17 @@
 
 # TUTORIAL NOTES
 
-### <div class="tutorial-title">Create a Listing Website WordPress & JetEngine | Real Estate Website in WordPress Elementor (2021)</div>
+### <div class="tutorial-title">Dynamic WordPress Website Tutorial with JetEngine and Elementor Pro (2019)</div>
 
 ## TUTORIAL INFO
 
-| URL:            | https://www.youtube.com/watch?v=EBj7nmSxbuk |
+| URL:            | https://www.youtube.com/watch?v=g7hMrmaOv9Q |
 | --------------- | ------------------------------------------- |
 | Platform:       | YouTube                                     |
 | Channel:        | WPTuts                                      |
 | Instructor:     | Paul C                                      |
 | Update Date:    | --                                          |
-| Date Started:   | 02/14/2023                                  |
+| Date Started:   | 02/15/2023                                  |
 | Date Completed: | --                                          |
 | File Name:      | **README.md**                               |
 
