@@ -1,0 +1,141 @@
+/*
+ File Name:    ehd-tut-notes.css
+ Purpose:      Styles for tutorial notes
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 11/01/2022
+ Date Changed: 11/03/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         Notes, Tutorial Notes, LinkedIn, Lynda, Udemy, Skillshare
+
+*/
+
+:root {
+  --color-primary: cadetblue;
+  --color-secondary: forestgreen;
+  --color-accent: brown;
+
+  --color-link-primary: --color-lavender-600;
+  --color-link-primary-hover: --color-lavender-100;
+  --color-sidebar-link: var(--color-lavender-600);
+  --color-sidebar-link-hover: var(--color-lavender-100);
+
+  --color-teal-500: var(--color-air-superiority-blue);
+
+  --font-fam: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* ____________ HTML / BODY ________________ */
+
+html {
+  font-size: 16px;
+}
+
+html * {
+  box-sizing: border-box;
+  font-family: var(--font-fam);
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+  border-left: solid 1px gainsboro;
+  border-right: solid 1px gainsboro;
+  padding: 2em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+h2 {
+  color: var(--color-primary);
+}
+
+.tutorial-title {
+  background: cadetblue;
+  color: white;
+  padding: 1.8em;
+  padding-top: 0.1em;
+  padding-bottom: 0.2em;
+  border-radius: 10px;
+}
+
+.tutorial-table {
+  border: solid 2px brown;
+  border-collapse: collapse;
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+.tutorial-table th,
+td {
+  padding: 0.4em;
+  border-bottom: solid gray 1px;
+}
+
+.tutorial-table td:first-of-type {
+  background: antiquewhite;
+}
+
+.tutorial-table th:first-of-type {
+  background: burlywood;
+}
+
+.tutorial-table th {
+  background: gold;
+}
+
+.tutorial-preview,
+.author-info {
+  display: flex;
+  padding: 0.6rem 0.4rem;
+  border: solid #8a8a8a 1px;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  max-width: 600px;
+
+  min-height: 100px;
+  align-items: center;
+  justify-content: center;
+  background: gainsboro;
+  padding: 1em 2em;
+}
+
+/* ____________ SEC: Author Info ________________ */
+
+/* .ehw-wrapper .tutorial-notes-body .ehw-author-info */
+
+.tutorial-preview img,
+.author-info img {
+  max-height: 150px;
+  width: auto;
+}
+
+.avatar-div {
+  height: auto;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Adjacent Siblings after video */
+h2#videos ~ h3 {
+  background: cornsilk;
+  padding: 0.3em 1em;
+  border: solid 1px brown;
+  border-left: solid 5px brown;
+  font-weight: bold;
+}
+h2#videos ~ h3 ~ h4 {
+  padding: 0.3em;
+  font-weight: bold;
+  color: var(--color-primary);
+  font-size: 1.2em;
+}

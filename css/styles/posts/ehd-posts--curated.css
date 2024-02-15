@@ -1,0 +1,48 @@
+/*
+ File Name:    ehd-posts--curated.css
+ Purpose:      Format curated content
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 09/29/2021
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         curated, content, sharing, quote, blockquote, pullquote, pull-quote, error, message, code
+
+*/
+
+/* COLORS */
+
+/*
+
+#ffe9ec => light pink for error background
+
+*/
+
+/* CURATED CONTENT
+--------------------------------------*/
+
+.ehw-curated {
+    background-color: #ffffff;
+    color: #585858;
+    border: solid 2px;
+    border-radius: 1em;
+    padding: .5em 1em;
+}
+
+.ehw-curated a:link {
+    color: rosybrown;
+}
+
+.ehw-curated a:hover {
+    background-color: #d69a938f;
+    color: white;
+}
+
+.ehw-curated h2:first-of-type {
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration: underline;
+}

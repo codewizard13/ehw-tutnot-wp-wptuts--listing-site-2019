@@ -1,0 +1,38 @@
+/*
+ File Name:    ehd-global--pics
+ Purpose:      Styles for images and graphics
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 10/05/2021
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         image, pic, pix, caption, figcaption, figure, cutline, credit
+
+*/
+
+/* COLORS */
+
+:root {
+  --accent-col-1: antiquewhite;
+}
+
+
+
+.wp-caption-text {
+    background: aliceblue;
+    line-height: 1rem;
+    font-size: .8rem;
+    text-align: center !important;
+    padding: 5px;
+}
+
+
+span.ehw-credit {
+    font-style: italic;
+}
+
+span.ehw-caption-label {
+    font-weight: bold;
+}

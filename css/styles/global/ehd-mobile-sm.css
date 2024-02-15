@@ -1,0 +1,47 @@
+/*
+ File Name:    ehd-mobile-sm.css
+ Purpose:      Format mobile smartphone display
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 09/29/2021
+ Date Changed: --
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         mobile, smartphone, viewport, screen, display, small screen
+
+*/
+
+/* COLORS */
+
+/*
+
+#ffe9ec => light pink for error background
+
+*/
+
+/* MOBILE PHONE DISPLAY
+--------------------------------------*/
+
+@media (max-width: 480px)
+
+.single #primary.content-area {
+    background: green;
+    padding: 3px
+    margin: 0 auto;
+    
+}
+
+.single #primary.content-area > * {
+    overflow: hidden;
+}
+
+.single #main {
+    font-size: .9em;
+    line-height: 1.4em;    
+}
+
+.mgs-container {
+    padding: 0 !important;
+    margin: 0 auto !important;
+}

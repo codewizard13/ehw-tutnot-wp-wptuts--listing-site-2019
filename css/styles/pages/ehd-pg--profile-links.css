@@ -1,0 +1,82 @@
+/*
+ File Name:    ehd-pg--profile-links.css
+ Purpose:      Styles for Eric's Online Profile Links.
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 01/22/2019
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         special-pages, online-profiles, accounts, links, link lists, orange
+ 
+ Orig Name: ehCode_2019.01.22_EHW_ListOfMyOnlinePresenceLinks_01.css    
+
+*/
+
+/* COLORS:
+
+#ffe9ec => light pink for error background
+
+*/
+
+/* BASE STYLES */
+.page-id-9468 .content-area.primary * {
+  line-height: 1;
+  font-family: "open sans", roboto, tahoma, verdana, arial, sans-serif;
+  color: #505051;
+}
+.page-id-9468 .content-area.primary h2 {
+  background: #e98d38;
+  padding: 0.2em 1em;
+  color: white;
+  border-radius: 2em;
+}
+.page-id-9468 .content-area.primary .bar-1 {
+  /* Flaired edges, by Tomas Theunissen */
+  overflow: visible;
+  /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+.page-id-9468 .content-area.primary .bar-1:before {
+  /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+.page-id-9468 .content-area.primary .list-container {
+  border: solid 1px #f5f5f5;
+  background: beige;
+  width: 80%;
+  font-size: 0.8em;
+  padding: 0.2em 1em;
+  display: inline-grid;
+  margin: 0 2em;
+}
+.page-id-9468 .content-area.primary .list-container ul {
+  display: table-cell;
+  list-style: none;
+  padding: 0;
+}
+.page-id-9468 .content-area.primary .list-container ul li {
+  line-height: 1.2em;
+  border-left: solid 5px white;
+  padding-left: 10px;
+  margin-bottom: 0.2em;
+}
+.page-id-9468 .content-area.primary .list-container a {
+  text-decoration: none;
+}
+.page-id-9468 .content-area.primary .list-container a:hover {
+  background: #e98d38;
+  color: beige;
+}

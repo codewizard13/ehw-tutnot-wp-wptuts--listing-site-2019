@@ -1,0 +1,32 @@
+/*
+ File Name:    ehd-global--variables.css
+ Purpose:      GLOBAL styles for child theme
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 10/21/2022
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         global styles, style, colors, palette, typography, fonts, variables
+
+*/
+
+
+:root {
+  --color-air-superiority-blue: #6190a7;
+  --color-cornsilk: #fff3d5;
+  --color-teal-blue: #3d6b7f;
+  --color-sunray: #f0ad4e;
+  --color-rhythm: #777197;
+  --color-pink-error: #ffe9ec;
+    
+  --color-gray-50: #f2f2f2;
+  --color-gray-100: lightgray;
+  --color-gray-300: #9E9E9E;
+  --color-gray-900: #141414;
+  --color-lavender-600: #544F6C;
+  --color-lavender-100: #BBB7CC;
+  --color-orange-100: #F0AD4E;
+  
+}

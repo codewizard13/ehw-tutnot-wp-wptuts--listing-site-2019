@@ -1,0 +1,141 @@
+/*
+ File Name:    ehd-mod--quotes.css
+ Purpose:      Blockquote, pullquote, errors, and other message block styles.
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 01/22/2019
+ Date Changed: 11/26/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         quote, blockquote, pullquote, pull-quote, error, message, code
+
+*/
+
+
+#ffe9ec => light pink for error background
+
+*/
+
+/* ERRORS & WARNINGS
+_________________________________________ */
+
+.error-1 {
+    color: brown;
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center;
+    background: #ffe9ec;
+    border-left: .4em solid brown;
+    overflow: hidden;
+    padding: 1em;
+    margin: .2em;
+    box-shadow: 2px 2px 11px 1px #666;
+    display: inline-block;
+
+}
+.error-1:before {
+    content: '';
+}
+
+.ehw-pullquote-1 {
+    overflow: unset !important;
+    background: #fff7c0;
+    width: 80%;
+    margin: 0 auto;
+}
+.ehw-pullquote-1:before {
+    content: '';
+}
+
+
+
+/* NOTES
+_________________________________________ */
+
+.ehw-note-1 { /* aside */
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    background: #3c6a92;
+    padding: 1.2em;
+    color: white;
+}
+.ehw-note-1 > span { /* span */
+    font-weight: bold;
+    text-decoration: underline;
+    padding-right: .5em;   
+}
+
+
+/* FALLBACK CODE STYLES
+_________________________________________ */
+
+code {
+  background: #f7fff2;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 6px;
+  border: solid gray 1px;
+  line-height: calc(line-height + 3);
+  font-size: 0.8em !important;
+  line-height: 1.2;
+  display: inline-block;
+  color: darkblue;
+}
+
+code:has(pre) {
+  padding: 0;
+  display: block;
+  padding: 1rem;
+
+  background: #f7fff2;
+  margin: 1rem 0;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: solid gray 1px;
+  border-right: solid black 5px;
+  border-left: solid black 5px;
+}
+
+code > pre {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ENLIGHTER CODE HIGHLIGHTER PLUGIN
+_________________________________________ */
+
+div.enlighter {
+    margin: 1em 0 !important; /* add padding to top and bottom of code snippet */
+}
+
+
+/* POST DESCRIPTION
+_________________________________________ */
+
+.ehw-post-descr {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    background: #f7f4d8;
+    border: 1px #797979 solid;
+    border-radius: -1em;
+    padding: 1.2em;
+    color: #797979;
+    font-style: oblique;
+}
+.ehw-post-descr > h3 {
+    color: #8e6e43;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+/* Quote author citation */
+.ehw-quote-auth {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    top: -2em;
+    margin-top: 1em;
+}

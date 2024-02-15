@@ -1,0 +1,206 @@
+/*
+ File Name:    ehd-posts--pub-works.css
+ Purpose:      Styles posts about Hepperle's published works
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: --
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         posts, post styles, published, newspaper, eric's works, author
+
+*/
+
+
+/* This formats Eric's Published Works posts */
+/* It it is required to have the outermost div a page wrapper with class of "ehw-wrapper-pub" */
+
+H1, H2, H3, H4, H5, H6
+{
+	clear: none !important;
+}
+
+.ehw-wrapper-pub {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.ehw-wrapper-pub * {
+	margin-bottom: .6em;
+}
+
+.ehw-wrapper-pub h3 {
+    /* background: orange; */
+    margin-bottom: .3em;
+}
+
+.ehw-add-info {
+    background: #ffffb3;
+	border: solid 2px brown;
+	border-radius: .4em;
+    padding: .5em;
+    margin: .5em 0 1em 0;
+    overflow: hidden;
+    padding-left: .8em;
+}
+
+.ehw-add-info h2 {
+        font-size: 1.2rem;
+        font-family: roboto;
+        color: brown;
+        font-weight: 900;
+}
+
+
+.ehw-add-info h3 {
+    background: #ffca68;
+    padding: .1em .6em;
+    border-left: solid #b31e1e 7px;
+	margin-bottom: .4em;
+	font-size: 1em;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.ehw-add-info img {
+    box-shadow: 2px 2px 2px 2px #6c6c6c;
+    margin-right: .2em
+}
+
+/* Publication Details Table */
+
+.ehw-pub-details {
+    border: none;
+    margin-left: 1em;
+    width: 60%;
+}
+
+.ehw-pub-details td {
+    /* background: pink; */
+    padding: 0;
+    font-size: .8em;
+}
+
+
+.ehw-pub-details tr {
+    border: none;
+
+}
+
+.ehw-pub-details td {
+    border: none;
+}
+
+.ehw-pub-details td:first-of-type {
+    color: brown;
+    font-weight: bold;
+    border: none;
+    width: 140px
+}
+
+
+img.end-cats {
+    padding-bottom: 1em;
+}
+
+
+h4.recipe-title {
+    overflow: hidden;
+    background: #ead3d3;
+    padding: .1em 1em;
+    margin-top:1em;
+    font-weight: bold;
+}
+
+.newspaper-lite-author-wrapper {
+    background: #d6d6d6;
+    border-radius: 2em;
+}
+
+
+#primary .newspaper-lite-author-wrapper {
+    margin-bottom: 1.2em !important;
+}
+
+.category-button a:link {
+    color: white;
+}
+
+
+/* WIDGETS
+______________________________________ */
+.widget_recent_comments li {
+    line-height: 1.4em;
+    padding: .6em 1.2em 0;
+}
+
+.widget_recent_entries li {
+    padding-bottom: .6em;
+}
+
+.widget_recent_entries li a {
+    margin-bottom: .6em;
+    line-height: 1.4em;
+}
+
+
+/* =============[DEVICES]=============== */
+
+@media only screen and (max-width: 480px) {
+
+		
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	#primary {
+	    max-width: 100% !important;
+	}
+	
+	figure {
+		padding: .2em;
+		margin-bottom: 2em;
+	}
+	
+	figcaption {
+		padding: 0 1em;
+	}
+	
+	.img-white-border {
+	    padding-top: .2em
+	    
+	}
+	
+	.ehw-wrapper-pub figure {
+	    margin-bottom: 1.2em;
+	}
+	
+	.ehw-add-info img {
+	    margin-bottom: 1em !important;
+	}
+
+/* WIDGETS */
+.widget-area .widget {
+    margin: 0 0 25px;
+    padding-bottom: 10px;
+    width: 97vw;
+    margin: 0 auto;
+}
+
+.widget_recent_comments li {
+    line-height: 1.2em;
+    padding: .6em 1.2em;
+}
+
+.widget_recent_entries li {
+    padding-bottom: 1em;
+}
+
+.widget_recent_entries li a {
+    margin-bottom: 1em;
+    line-height: 1.2em;
+}
+
+}

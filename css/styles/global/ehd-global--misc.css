@@ -1,0 +1,76 @@
+/*
+ File Name:    ehd-global--misc.css
+ Purpose:      Other EricHepperle.com styles that haven't been sorted yet.
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 12/14/2020
+ Date Changed: 11/23/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         misc, eric hepperle, styles
+
+*/
+
+/* COLORS */
+
+/*
+
+#ffe9ec => light pink for error background
+
+*/
+
+.ehw-job-specialties {
+	color: cadetblue;
+	font-weight: bold;
+}
+
+.ehw-label {
+	color: black;
+	font-weight: bold;
+}
+
+.ehw-final-words {
+	color: #CCC;
+}
+
+
+
+/* _____________ MESSAGES _____________ */
+
+.ehw-body .error {
+    color: brown !important;
+    padding: 1em !important;
+    border-radius: .3rem !important;
+    background: var(--color-pink-error) !important;
+    background: pink !important;
+}
+
+
+
+.ehw-body .notice {
+  padding: 1.2rem;
+  background: lightgray;
+  border: darkgray 2px solid;
+  margin: 1rem;
+  display: flex;
+}
+
+.ehw-body .notice .label {
+  font-weight: 700;
+  padding-right: .2rem;
+}
+
+.ehw-body .gotcha {
+  background: #ffe4e4;
+}
+
+.ehw-body .notice:before {
+  font-family: "FontAwesome";
+  content: "\f071";
+  margin: 1rem;
+  font-size: 2rem;
+}
+.ehw-body .logo {
+  width: 100px;
+}

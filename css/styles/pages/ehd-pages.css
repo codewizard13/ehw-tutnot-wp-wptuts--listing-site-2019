@@ -1,0 +1,30 @@
+/*
+ File Name:    ehd-pages.css
+ Purpose:      Styles for Pages on EricHepperle.com.
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 04/23/2021
+ Date Changed: ~~
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         misc, eric hepperle, styles, eric l hepperle, hepperle, pages, page styles
+
+*/
+
+/* COLORS */
+
+/*
+
+#ffe9ec => light pink for error background
+
+*/
+
+/* :SERVICES:
+.page-id-5995
+________________________________________*/
+
+.portfolio-table td {
+    background: antiquewhite;
+    width: 17vw;
+}

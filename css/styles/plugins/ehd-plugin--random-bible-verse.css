@@ -1,0 +1,18 @@
+/*
+ File Name:    ehd-plugin--random-bible-verse.css
+ Purpose:      Styles for Random Bible Verse plugin
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 10/05/2021
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         random, bible, verse, christian, jesus, god
+
+*/
+
+.ehw-rbv {
+  margin: 0;
+  padding: 1em;
+}

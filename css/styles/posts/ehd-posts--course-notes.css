@@ -1,0 +1,150 @@
+/*
+ File Name:    ehd-posts--course-notes.css
+ Purpose:      Styles for course notes
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 11/01/2022
+ Date Changed: 11/16/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         Notes, Course Notes, LinkedIn, Lynda, Udemy, Skillshare
+
+*/
+
+@import "ehd-posts--course-notes--tables.css";
+@import "ehd-posts--course-notes--course-prev.css";
+
+:root {
+  --color-primary: cadetblue;
+  --color-secondary: forestgreen;
+  --color-accent: brown;
+
+  --color-link-primary: --color-lavender-600;
+  --color-link-primary-hover: --color-lavender-100;
+  --color-sidebar-link: var(--color-lavender-600);
+  --color-sidebar-link-hover: var(--color-lavender-100);
+
+  --color-teal-500: var(--color-air-superiority-blue);
+
+  --font-fam: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* ____________ HTML / BODY ________________ */
+.ehw-body.notes {
+  box-sizing: border-box;
+  font-family: var(--font-fam);
+  background: #fffbf7;
+  /* ____________ COURSE & AUTHOR META ___________ */
+  /* ____________ SEC: Author Info ________________ */
+  /* .ehw-wrapper .course-notes-body .ehw-author-info */
+}
+
+.ehw-body.notes * {
+  max-width: 1024px;
+  box-sizing: border-box;
+}
+
+.ehw-body.notes a,
+.ehw-body.notes a:visited {
+  font-weight: bold;
+  color: #0170ba;
+  text-decoration: none;
+}
+.ehw-body.notes a:hover {
+  text-decoration: underline;
+}
+
+.ehw-body.notes .course-title {
+  background: cadetblue;
+  color: aliceblue;
+  padding: 0.8rem 2rem;
+  font-weight: bold;
+  border-radius: 0.6rem;
+  font-size: 1.8rem;
+}
+.ehw-body.notes h2 {
+  color: var(--color-primary);
+}
+.ehw-body.notes #course-info,
+.ehw-body.notes #course-info ~ h2 {
+  color: cadetblue;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* TABLE STYLES import from external styelsheet */
+
+/* .ehw-body.notes .course-preview {
+  display: flex;
+  padding: 0.6rem 0.4rem;
+  border: solid #8a8a8a 1px;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  min-height: 200px;
+  align-items: center;
+  justify-content: center;
+  background: gainsboro;
+  padding: 1em 2em;
+} */
+.ehw-body.notes .author-img,
+.ehw-body.notes .course-img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.ehw-body.notes #videos ~ h2 {
+  font-size: 1.6rem;
+  color: aliceblue;
+  padding: 0.3rem 1rem;
+  background: cadetblue;
+}
+.ehw-body.notes #videos ~ h2:before {
+  font-family: "FontAwesome";
+  content: "";
+  padding-right: 0.6rem;
+}
+
+.ehw-body.notes #videos ~ h3 {
+  font-size: 1.3rem;
+  color: aliceblue;
+  padding: 0.3rem 1rem;
+  background: #1d6181;
+  font-weight: 500;
+}
+
+h4 {
+  color: #1d6181;
+  font-size: 1.2rem;
+}
+
+h5 {
+  color: cadetblue;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+h6 {
+  color: #1d6181;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+/* --- LAST MINUTE --- */
+
+section.ehw-author-info > div {
+  width: 100%;
+  /* flex: 1; */
+  /* align-items: center; */
+  text-align: center;
+  /* justify-items: center; */
+  /* justify-content: center; */
+}
+
+section.ehw-author-info > div img {
+  width: 100%;
+}

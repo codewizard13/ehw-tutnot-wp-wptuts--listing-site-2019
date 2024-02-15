@@ -1,0 +1,42 @@
+/*
+ File Name:    ehd-arch--search-results.css
+ Purpose:      Styles for Newspaper Lite EHW search results page.
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 10/18/2021
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         search, results, search results, query string
+
+*/
+
+
+/* SEARCH PAGE
+_________________________________ */
+
+.search-results .entry-summary {
+    line-height: 1.4em;
+    overflow: hidden;
+    padding-bottom: 0 !important;
+}
+
+.search-results .hentry {
+    padding-bottom: 0 !important;
+}
+
+
+/* SEARCH STRINGS & FIELDS
+_________________________________ */
+.ehw-search-string {
+    padding: 4px 1em;
+    font-size: 1.2em;
+    line-height: 16px;
+    cursor: pointer;
+    background: floralwhite;
+    border: solid 1px gainsboro;
+    margin-bottom:  1em;
+    border-radius: 3px;
+    box-shadow: inset 2px 2px 2px lightgrey;
+}

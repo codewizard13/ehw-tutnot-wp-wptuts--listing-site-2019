@@ -1,0 +1,71 @@
+/* ---------- TABLE: BASE ------------ */
+.ehw-body.notes {
+  /* Force any table with last col 100% to auto */
+}
+.ehw-body.notes table {
+  border: solid 2px brown;
+  margin: 0;
+  margin-bottom: 2em;
+  max-width: 1024px;
+  border-collapse: collapse;
+}
+.ehw-body.notes table th,
+.ehw-body.notes table td {
+  padding: 0.4em;
+  border-bottom: solid gray 1px;
+  font-weight: normal;
+  text-align: left;
+  background: white;
+}
+.ehw-body.notes table th:first-of-type,
+.ehw-body.notes table td:first-of-type {
+  background: #d6fafa;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+}
+.ehw-body.notes table tr:last-of-type td {
+  border-bottom: none;
+}
+.ehw-body.notes .table--2-col td:last-child {
+  width: 100%;
+}
+.ehw-body.notes .table-horz th,
+.ehw-body.notes .table-horz td:first-of-type {
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  border-right: 1px solid gray;
+  background: white;
+  font-weight: normal;
+}
+.ehw-body.notes .table-horz th {
+  background: #d6fafa;
+  font-weight: bold;
+}
+.ehw-body.notes .table-horz td {
+  border-right: 1px solid gray;
+}
+.ehw-body.notes #course-info-table th {
+  background: gold;
+}
+.ehw-body.notes #course-info-table th:first-of-type {
+  background: gold;
+  text-align: center;
+}
+.ehw-body.notes #course-info-table td:first-of-type {
+  background: antiquewhite;
+}
+.ehw-body.notes .fit-content td:last-child {
+  width: auto;
+}
+
+.ehw-body.notes .ehw-author-info {
+  border: none;
+  padding: 1rem !important;
+}
+
+.ehw-body.notes .ehw-author-info td {
+  background: #dcdcdc !important;
+  border: none;
+}

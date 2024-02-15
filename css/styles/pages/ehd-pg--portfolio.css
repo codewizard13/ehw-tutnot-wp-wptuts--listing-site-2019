@@ -1,0 +1,79 @@
+/*
+ File Name:    ehd-pg--portfolio.css
+ Purpose:      Eric's Portfolio Page
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 12/13/2021
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         portfolio, page, resume, employment
+
+*/
+
+/* COLORS */
+
+:root {
+  --accent-col-1: antiquewhite;
+}
+
+
+
+/* TEMPLATE
+-----------------------------*/
+
+.ehw-port-par {
+  line-height: 1.2em;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: roboto;
+}
+.ehw-port-par h4 {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.ehw-port-par > p {
+  margin-bottom: 0.6rem;
+}
+
+/* Technologies list footer */
+
+.ehw-tech-list {
+  margin-top: 1rem;
+  color: var(--accent-col-1);
+  border: solid 1px #faebd7;
+  /* border: solid 1px var(--accent-col-1); */
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.ehw-tech-list .ehw-label {
+  color: yellow;
+}
+
+
+
+/*  MEDIA QUERIES:
+ ____________________________________ */
+@media only screen and (max-width: 400px) {
+  .ehw-port-par {
+    width: 100%;
+    
+    .elementor-icon-box-wrapper {
+      text-align: center;
+      border-bottom: 2px solid;
+    }
+    i,
+    .elementor-icon-box-icon {
+      display: none !important;
+    }
+    elementor-icon-box-content > h3 {
+      font-size: 1.7rem;
+    }
+  }
+  h4 {
+    font-size: 1.5em !important;
+    margin-bottom: 0.3em;
+  }
+}

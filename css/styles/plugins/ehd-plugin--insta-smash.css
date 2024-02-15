@@ -1,0 +1,29 @@
+/*
+ File Name:    ehd-plugin--insta-smash.css
+ Purpose:      Eric's Portfolio Page
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 09/16/2022
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         plugin, instagram, smash ballon, portfolio
+*/
+
+a.sbi_photo.sbi_imgLiquid_bgSize.sbi_imgLiquid_ready {
+    max-height: 200px;
+    background-size: contain !important;
+
+}
+
+a.sbi_photo.sbi_imgLiquid_bgSize.sbi_imgLiquid_ready {
+    margin: 5px;
+    border: none;
+}
+
+.sbi_photo_wrap {
+    border: solid 2px;
+    background: aliceblue;
+    border-radius: 0 1em;
+}

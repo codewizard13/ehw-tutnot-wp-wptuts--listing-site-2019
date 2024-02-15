@@ -1,0 +1,81 @@
+/*
+ File Name:    ehd-posts.css
+ Purpose:      Format posts
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 09/04/2022
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         posts, single, single post
+
+*/
+
+
+
+.ehw-date-footer {
+    background:antiquewhite;
+    overflow: hidden;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.ehw-date-pub {
+  color: #a0a0a0;
+}
+
+.ehw-date-update {
+  color: brown;
+  font-weight: bold;
+
+}
+
+
+/* PAGE: Marijuana Bullets */
+
+.postid-267 .entry-content a.zem_slink {
+    color: #e0ff7e;
+    display: inline-block;
+}
+
+
+/* HEADINGS */
+
+h1.entry-title {
+    color: var(--color-air-superiority-blue);
+    font-weight: 700;
+}
+.entry-content h2.ehw-grabber {
+    color: #8aa8b6;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+
+
+/* ______________ POST ENTRY META ___________________ */
+
+/* TAGS */
+
+.entry-meta span.tags-links a {
+    color: brown;
+    padding: 2px 4px;
+    background: #fbf7f2;
+    text-align: center;
+}
+.entry-meta span.tags-links a:hover {
+  font-weight: bold;
+}
+
+/* CATEGORIES */
+
+.entry-meta span.cat-links a {
+    font-weight: bold;
+ text-transform: uppercase
+}
+.entry-meta span.cat-links a:hover {
+  filter: brightness(120%);
+ /*saturate(120%);*/
+}

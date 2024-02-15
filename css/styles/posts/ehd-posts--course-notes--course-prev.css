@@ -1,0 +1,52 @@
+/* Container */
+.course-preview {
+  display: flex;
+  max-width: 1024px;
+  width: 100%;
+  /* margin: 0 auto; */
+
+  justify-content: center;
+
+  /* background: grey; */
+  padding: 6px;
+  /* flex-wrap: wrap; */
+}
+
+/* All 3 child divs */
+.course-preview > * {
+  background: rgb(40, 9, 53);
+  display: flex;
+  /* flex-grow: 1; */
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 300px;
+  /* flex-wrap: wrap; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LEFT-MOST child */
+.course-preview > *:first-of-type {
+  border-radius: 10px 0 0 10px;
+}
+/* RIGHT-MOST child */
+.course-preview > *:last-of-type {
+  border-radius: 0 10px 10px 0;
+}
+
+/* MIDDLE child div */
+.course-preview > *:nth-child(2) {
+  /* display: flex;
+        flex-direction: column;
+        flex-basis: 100px; */
+}
+
+/* Images in child divs */
+.course-preview > * img {
+  max-height: 200px;
+  width: auto;
+  /* border: solid green 2px; */
+  padding: 5px;
+  text-align: center;
+}

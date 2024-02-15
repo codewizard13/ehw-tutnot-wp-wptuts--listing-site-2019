@@ -1,0 +1,48 @@
+/*
+ File Name:    ehd-post--arris-modem.css
+ Purpose:      Styles for Arris Comcast Modem post.
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 06/23/2021
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         misc, eric hepperle, styles, comcast, arris, modem, troubleshooting
+
+*/
+
+/* COLORS */
+
+/*
+
+#ffe9ec => light pink for error background
+
+*/
+
+/* POST - COMCAST ARRIS MODEM
+Post Number: postid-1060 __________________*/
+
+.eh-comcast {
+    background: beige;
+    border: solid green 6px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.eh-comcast img:first-of-type {
+    border: solid red;
+    float: left;
+    margin:1.2em;
+}
+
+.eh-sources-2 {
+    background-color: ghostwhite !important;
+    border: solid 6px cadetblue !important;
+}
+
+
+
+
+/* MEDIA QUERIES */

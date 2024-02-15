@@ -1,0 +1,113 @@
+/*
+ File Name:    ehd-god-bible.css
+ Purpose:      God's word and things dealing with Bible verses, etc.
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 10/05/2021
+ Date Changed: 10/15/2021
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         god, rhema, god's word, bible, jesus, prophecy, prophetic word, verse
+
+*/
+
+/* COLORS */
+
+/*
+
+#ffe9ec => light pink for error background
+
+*/
+
+
+/* TEMPLATE
+-----------------------------*/
+
+.description.prophetic {
+    padding-top: 2em;
+}
+
+
+/* God's Rhema Word */
+.ehw-rhema {
+    color: indianred;
+    background: white;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+/* maybe prefix: ehw-bible-ch or .description.prophetic? Hepperle - 10/15/21 */
+
+.ehw-bible-ch {
+
+}
+
+.ehw-bible-ch ol {
+   counter-reset: lis var(--start-value, 0);
+   margin-left: 1em;
+}
+
+.ehw-bible-ch ol li {
+    overflow: hidden;
+    margin-bottom: .6em;
+    list-style-type: none;
+    counter-increment: lis;
+}
+
+.ehw-bible-ch ol li:before {
+    content: counter(lis);
+width: 3.7em;
+
+    margin-right: 0.3em;
+    color: indianred;
+    font-family: "eras itc", arial, verdana, sans-serif;
+    font-weight: bold;
+    background: antiquewhite;
+    /* width: 32px; */
+    /* height: 63px; */
+    padding: 6px 9px;
+    border: solid indianred 1px;
+    box-shadow: 2px 2px 1px burlywood;
+    float: left;
+    margin-right: 1em;
+}
+
+/* BIBLE VERSES
+_________________________________________ */
+
+.ehw-bible-verse {
+    overflow: hidden;
+    background: #fff0d0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: 1em;
+    padding-bottom: .3em;
+    border-left-color: #a26717 !important;
+    box-shadow: 0 0 6px rgb(0 0 0 / 50%);
+}
+
+blockquote.ehw-bible-verse:before {
+    height: 0;
+    content: "“";
+    display: block;
+    margin-left: -.1em !important;
+    font: italic 400%/1 Cochin,Georgia,"Times New Roman",serif;
+    color: #bb3131;
+}
+
+.ehw-bible-verse > p {
+   padding-left: 3em;
+}
+
+/* NLT FORMATTING
+_________________________________________ */
+
+.ehw-nlt-end {
+    padding-bottom: 2em;
+}
+
+.ehw-nlt-prose { /* ol */
+    display: table-cell;
+}

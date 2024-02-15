@@ -1,0 +1,157 @@
+/*
+ File Name:    ehd-mod--sidebars.css
+ Purpose:      Styles for sidebars
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 10/21/2022
+ Date Changed: 11/12/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         image, pic, pix, caption, figcaption, figure, cutline, credit
+
+*/
+
+
+:root {
+  
+  --color-link-primary: --color-lavender-600;
+  --color-link-primary-hover: --color-lavender-100;
+  --color-sidebar-link: var(--color-lavender-600);
+  --color-sidebar-link-hover: var(--color-lavender-100);
+  
+  --color-teal-500: var(--color-air-superiority-blue);
+}
+
+/* ____________ ALL SIDEBAR WIDGETS ________________ */
+
+.sidebar-main .widget {
+  margin-bottom: 1em;
+}
+.sidebar-main .widget a {
+  color: var(--color-sidebar-link);
+  font-weight: 700;
+}
+.sidebar-main .widget a:hover {
+  color: var(--color-sidebar-link-hover);
+}
+
+
+
+/* ____________ MENU: POPULAR CATEGORIES ____________ */
+
+aside#nav_menu-2 {
+  font-family: Roboto;
+}
+aside#nav_menu-2 .widget-title, aside#nav_menu-2 .menu-item {
+  padding: 0.5em 1em;
+}
+aside#nav_menu-2 .menu-item .menu-link,
+aside#nav_menu-2 .menu-item {
+  padding: 0;
+  font-weight: 700;
+  color: var(--color-sidebar-link);
+}
+aside#nav_menu-2 .menu-item .menu-link:hover {
+  color: var(--color-orange-100);
+  color: var(--color-lavender-100);
+}
+aside#nav_menu-2 .widget-title {
+  background-color: var(--color-air-superiority-blue);
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+}
+aside#nav_menu-2 .menu-item {
+  border: 1px solid var(--color-gray-300);
+  border-top: none;
+  margin: 0;
+  padding-left: 1em;
+}
+aside#nav_menu-2 .menu-item-has-children {
+  padding: 0;
+  border: none;
+}
+aside#nav_menu-2 .menu-item-has-children .menu-link:not(:where(.sub-menu *)) {
+  /* PARENT TOPIC */
+  border: solid 1px var(--color-gray-300);
+  border-top: 0;
+  padding-left: 1em;
+  display: block;
+  margin: 0;
+}
+aside#nav_menu-2 .sub-menu {
+  margin: 0;
+}
+aside#nav_menu-2 .sub-menu .menu-item, aside#nav_menu-2 .sub-menu .menu-link {
+  font-weight: 400;
+}
+aside#nav_menu-2 .sub-menu .menu-item {
+  padding-left: 2em;
+}
+
+
+
+/* ____________ ARCHIVES CALENDAR ____________ */
+
+table#wp-calendar {
+  background: aliceblue;
+  margin-bottom: 0;
+  border: solid 2px var(--color-gray-100);
+}
+
+table#wp-calendar caption {
+  background: var(--color-teal-500);
+  font-weight: bold;
+  color: white;
+}
+
+.secondary .calendar_wrap #today {
+  color: white;
+  font-weight: bold;
+  background: var(--color-teal-500);
+}
+
+.widget_calendar tbody > tr > td {
+  width: 14.2857%;
+  border: solid 1px var(--color-gray-100);
+  background: white;
+}
+
+.widget_calendar tbody > tr > td.pad {
+  background: var(--color-gray-50)
+}
+
+.widget_calendar th {
+  background: var(--color-gray-100);
+  border: none !important;
+}
+
+nav.wp-calendar-nav {
+  margin-bottom: 1.5em;
+  background: var(--color-gray-50);
+  display: flex;
+}
+
+span.wp-calendar-nav-prev {
+    display: flex;
+    /* flex-direction: row; */
+    flex: 1;
+    
+}
+
+span.wp-calendar-nav-prev > a {
+    background: antiquewhite;
+    flex: 1;
+    padding-left: 1em;
+}
+
+span.wp-calendar-nav-next {
+    flex: 1;
+    background: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+  padding-right: 1em
+}
