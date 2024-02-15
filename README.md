@@ -20,7 +20,7 @@
 
 ### GITHUB REPO
 
-- https://github.com/codewizard13/ehw-tutnot-wp-wptuts--listing-site
+- https://github.com/codewizard13/ehw-tutnot-wp-wptuts--listing-site-2019
 
 ### TECHNOLOGIES
 
