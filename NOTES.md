@@ -12,6 +12,23 @@
 
 ## VIDEOS
 
+
+### 00. Introduction                 
+### 01. Overview                     
+### 02. Terminology                  
+### 03. Creating Custom Post Types   
+### 04. General Settings             
+### 05. Labels                       
+### 06. Properties                   
+### 07. Meta Fields                  
+### 08. Creating Custom Taxonomy     
+### 09. Creating Template Files      
+### 10. Creating Single Post Template
+### 11. Custom Listings              
+### 12. Outro                        
+
+
+
 ### 0. Introduction
 
 #### 0.0 Welcome
