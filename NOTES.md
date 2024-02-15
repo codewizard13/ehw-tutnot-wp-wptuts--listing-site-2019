@@ -45,10 +45,104 @@
 
 
 ### 03. Creating Custom Post Types
+
+- **To create post type:** JetEngine > Post Types
+
+!!! TIP: You can choose to work with built-in or JetEngine CPTs (custom post types) using the toggle in upper right
+
+#### Create new CPT: 
+
+- Click "Add New"
+
 ### 04. General Settings
+
+- **Post Type Name:** Properties
+- **Post Type Slug:** properties
+
 ### 05. Labels
-### 06. Properties
+
+- Totally optional
+
+### Advanced Settings (08:12)
+
+- These are the changes we need for this project:
+- **Has Archive:** enable
+- **Hierarchical:** enable [allows multiple levels]
+- **Menu Position:** 1 [where displays on left sidebar]
+- **Menu icon:** dashicons-admin-multisite
+- **Supports:** title, editor, thumbnail (feat img) [built-in meta fields that our custom post can make use of]
+
+## 06. Properties [doesn't really make sense as a timestamp - should delete]
+
 ### 07. Meta Fields
+
+- Create first meta field: Property Price
+
+#### Property Price
+
+- Click "New Meta Field"
+- **Label:** [human-readable] Property Price
+- **Name/ID:** property-price
+- **Object Type:** [what kindof field?] Field
+- **Field Type:** [what type of data should user input?] Text
+
+!!! TIP: Often works best to set Field Type for numeric values as Text
+
+- **Description:** (optional) Notes to end user
+- **Field Width:** 100%
+- **Character Limit:** blank
+- **Default Value:** blank
+- **Is Required:** yes
+
+#### Location 
+
+- **Is Required:** yes
+
+#### Gallery
+
+- **Field Type:** Gallery [upload multiple images as same time]
+
+### Admin Columns (14:14)
+
+- Allows us to insert additional columns into the admin section
+
+- Click "Add Post Type" to save all our settings
+
+- Refresh page and click on "Properties" in the admin menu
+  
+!!! #GOTCHA: In the Propeties editor by default the only columns are Title and Date
+
+#### Admin Column: Featured Image
+
+- WPADMIN > JetEngine > Post Types > Click "Properties" in Post Type column
+- Scroll to bottom and click Admin Columns > Add New
+- **Title:** Featured Image
+- **Type:** Select from existing callbacks > Render image tag ...
+  - Set Field: thumbnail
+  - Size: 100
+- **Column Order:** 2
+
+#### ADMIN Column: Property Location
+
+- **Title:** Property Location
+- **Type:** Meta Value
+
+- Scroll up to the Location custom field and grab the field ID/Name
+- **Field Name:** location
+- **Column Order:** 3
+- **Is Sortable:** yes
+
+- Update Post Type 
+- Go back to the properties list and you can see the new columns are there
+
+NEXT: Creating custom taxonomies
+
+
+
+
+
+
+
 ### 08. Creating Custom Taxonomy
 ### 09. Creating Template Files
 ### 10. Creating Single Post Template
