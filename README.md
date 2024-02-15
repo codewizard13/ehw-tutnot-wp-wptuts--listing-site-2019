@@ -43,7 +43,7 @@
 
 ## PURPOSE
 
-How to create a Real Estate Listing Website | WordPress, JetEngine and Elementor Pro.
+The perfect beginners guide to building your first dynamic WordPress website with Crocoblock's JetEngine and Elementor Pro.
 
 
 ### Tutorial Info
@@ -87,44 +87,38 @@ Notes are located in [./NOTES.md](./NOTES.md)
 
 ### Description:
 
-In this Real Estate Listing Website WordPress tutorial, we'll be building a dynamic listing website with Elementor Pro and JetEngine from Crocoblock. We'll also be adding in a fully-featured search and filter set up to let users find exactly what they are looking for.
+Learn how to build your very own dynamic WordPress website. You'll learn the following awesome skills:
 
-We'll also be building the entire design with Elementor Pro, including:
+- Post Types
+- Creating your own Custom Post Types
+- Custom Meta Field
+- Custom admin entries in the CPT list
+- Custom Listings
+- Building Elementor Page Templates
+- Single Post Type
+- Default Archive Pages
+- Custom Archive template with Listing
+- Introduction to JetEngine Listings.
 
-- Custom homepage
-- Custom property listings
-- Custom Archive page
-- Custom single post page and more
-- Custom estate agent listings
-- Dynamic email form for each property...
-
-Learn how to take your WordPress design skills up a notch and build truly dynamic websites with JetEngine and JetSmartFilters from Crocoblock.
+Don't rely on a bunch of WordPress plugins to build your Dynamic WordPress Website, harness the power of JetEngine and start building more powerful websites and earning more money!ever
 
 ### Chapters
 
-| CH. Num | Timestamp | Chapter Title                                |
-| ------- | --------- | -------------------------------------------- |
-| 00      | 00:00:00  | Introduction                                 |
-| 01      | 00:00:59  | What we’ll be building                       |
-| 02      | 00:05:33  | The tools we’ll be using                     |
-| 03      | 00:06:43  | Setting up the Glossaries                    |
-| 04      | 00:10:11  | Building the Property Post Types             |
-| 05      | 00:14:24  | Building the Property Taxonomies             |
-| 06      | 00:17:03  | Setting up the Agent Post Type               |
-| 07      | 00:18:35  | Building the Agent to Property Relationship  |
-| 08      | 00:21:54  | Adding sample content                        |
-| 09      | 00:27:05  | Building the Property Listing template       |
-| 10      | 00:41:55  | Building the Properties Archive template     |
-| 11      | 00:53:48  | Building the Properties Single post template |
-| 12      | 01:13:30  | Building the Agent Listing template          |
-| 13      | 01:19:33  | Building the Agent Archive template          |
-| 14      | 01:22:21  | Building the Agent Single Post template      |
-| 15      | 01:30:29  | Building the Agent Contact form template     |
-| 16      | 01:41:33  | Building the homepage                        |
-| 17      | 01:46:25  | Building the Ajax search and filters         |
-| 18      | 02:06:41  | Adding Sales Agent reviews feature           |
-| 19      | 02:13:34  | Building the property type template          |
-| 20      | 02:18:33  | What next?                                   |
+| CH. Num | Timestamp | Chapter Name                  |
+| ------- | --------- | ----------------------------- |
+| 00      | 00:00     | Introduction                  |
+| 01      | 00:40     | Overview                      |
+| 02      | 02:25     | Terminology                   |
+| 03      | 05:05     | Creating Custom Post Types    |
+| 04      | 06:08     | General Settings              |
+| 05      | 07:36     | Labels                        |
+| 06      | 09:42     | Properties                    |
+| 07      | 11:08     | Meta Fields                   |
+| 08      | 17:26     | Creating Custom Taxonomy      |
+| 09      | 24:06     | Creating Template Files       |
+| 10      | 31:49     | Creating Single Post Template |
+| 11      | 42:27     | Custom Listings               |
+| 12      | 49:50     | Outro                         |
 
 
 ## Instructor
