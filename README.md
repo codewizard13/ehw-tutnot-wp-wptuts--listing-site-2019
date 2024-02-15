@@ -16,7 +16,7 @@
 | Date Completed: | --                                          |
 | File Name:      | **README.md**                               |
 
-![Tutorial Thumbnail](/img/tutorial-thumb-yt-wptuts-listing-site.jpg)
+![Tutorial Thumbnail](/img/tutorial-thumb-yt-wptuts-listing-site-2019-600px.jpg)
 
 ### GITHUB REPO
 
