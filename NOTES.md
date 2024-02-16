@@ -117,10 +117,15 @@
 - WPADMIN > JetEngine > Post Types > Click "Properties" in Post Type column
 - Scroll to bottom and click Admin Columns > Add New
 - **Title:** Featured Image
-- **Type:** Select from existing callbacks > Render image tag ...
+- **Type:** Select from existing callbacks"
+  
+  `jet_engine_custom_cb_render_image` Render image tag by post thumbnail or image from meta
+
   - Set Field: thumbnail
   - Size: 100
 - **Column Order:** 2
+
+![](./img/screen-jetengine--admin-cols--feat-img_600px.jpg)
 
 #### ADMIN Column: Property Location
 
