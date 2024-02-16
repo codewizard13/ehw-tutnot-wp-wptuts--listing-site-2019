@@ -267,14 +267,74 @@ Follow Us -- [social icons] ---------------------------- [&copy;] All Rights Res
 
 ### 10. Creating Single Post Template
 
+- Wpadmin > Templates > Single > Properties > Default Property Single > Create Template
+
+!!! #TIP: There are single-post-only widgets available in the Elementor editor now
 
 
+- ADD SEC: 1 row, 1 col
+- Add 50px top/bottom Padding
+
+- Drag **featured image** widget into sec
+
+- Create a 2 col sec [75 / 25]
+- Add **post title** into left col
+- Add **post content** into left col
 
 
+**Add Gallery:**
+
+- Drag **gallery** widget (from Pro sec) below post content
+
+- Click the [database] icon (aka: dynamic data) > JetEngine Gallery
+- Click wrench icon 🔧
+- Click Field > Gallery
+
+- We can now configure the gallery
+- **Columns:** 3
+- **Image Size:** Medium Large
 
 
+---
+
+- Add **heading** widget above gallery: Property Gallery
+
+---
+
+
+#### ADD IN CUSTOM FIELD VALUES
+
+**Price**
+
+- Scroll to bottom to JetEngine's **Listing Elements** sec in Elementor widgets
+- Drag **dynamic field** widget into right col
+  - Source: Meta Data
+  - Meta Field: Property Price
+
+!!! #GOTCHA: The price is just an un-formatted number.
+
+- **Filter field output:**
+- Callback: Format Number
+  - Decimal points: 0
+- **Customize field output:**
+- Field format:
+
+```
+Price $%s
+```
+
+**Location**
+- Clone price field
+- Field format: `Location: %s`
+
+- Publish > Add Condition:
+  - Properties > All > Save and Close
 
 ### 11. Custom Listings
+
+
+
+
 ### 12. Outro
 
 
