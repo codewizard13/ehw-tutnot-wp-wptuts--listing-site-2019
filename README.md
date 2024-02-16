@@ -64,6 +64,8 @@ Notes are located in [./NOTES.md](./NOTES.md)
 - **GitHub commit emojis:** https://gitmoji.dev/
 - **Course Deets Scraper:** https://github.com/codewizard13/ehw-app-scrape-course-tuts
 - **Html Entities & Unicode Symbols:** https://www.toptal.com/designers/htmlarrows/symbols/
+- **Emojis for Data / Files:** 🗄️💾💽
+
 
 
 ## CAVEATS
