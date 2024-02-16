@@ -284,6 +284,8 @@ Follow Us -- [social icons] ---------------------------- [&copy;] All Rights Res
 
 !!! #GOTCHA: If you click on a post it is a very basic layout with none of the extra custom fields / meta fields we provided. We need to create custom single property template.
 
+![](/img/screen-property-listings-site--00--prop-arch.jpg)
+
 ### 10. Creating Single Post Template
 
 - Wpadmin > Templates > Single > Properties > Default Property Single > Create Template
