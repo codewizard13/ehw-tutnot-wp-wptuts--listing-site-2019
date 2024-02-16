@@ -187,7 +187,7 @@ NEXT: Creating custom taxonomies
 
 - Now look at Properties list page and all our relevant info should be in the columns
 
-
+#### #GOTCHA: Had to git rebase to change some older commit messages from README.md to NOTES.md
 
 
 
