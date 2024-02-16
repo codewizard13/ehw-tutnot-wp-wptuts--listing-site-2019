@@ -138,12 +138,66 @@
 NEXT: Creating custom taxonomies
 
 
-
-
-
-
-
 ### 08. Creating Custom Taxonomy
+
+- Create Property Types taxonomy
+- **JetEngine > Taxonomies > Add New**
+
+**General Settings:**
+
+- **Taxonomy Name:** Property Types
+- **Post Type:** Properties
+
+**Labels:**
+
+- (optional)
+
+**Advanced Settings:**
+
+!!! #TIP: Admin Menu is also called admin bar (menu at top in wpadmin)
+
+- **Hierarchical:** Yes
+
+**Meta Fields:**
+
+- Can add extra info to an archive page
+- Will deal with this in a different video
+- Click "Add Taxonomy" to save
+- Refresh -> Now Property Types should be a submenu in wpadmin under "Properties"
+
+---
+
+**Property Types:**
+
+(_Name Slug_)
+
+- Flats flats
+- Apartments apartments
+- Houses houses
+
+
+!!! #TIP: The "Parent Category" dropdown only shows up because we set the taxonomy as hierarchical
+
+
+- Now if we add a new property, we will see the "Property Types" selector metabox on the right
+
+#### Creating some dummy posts
+
+- Ground Apartment, 2 para, price 350k, London, add 4 pix in gallery
+
+- Now look at Properties list page and all our relevant info should be in the columns
+
+
+
+
+
+
+
+
+
+
+
+
 ### 09. Creating Template Files
 ### 10. Creating Single Post Template
 ### 11. Custom Listings
