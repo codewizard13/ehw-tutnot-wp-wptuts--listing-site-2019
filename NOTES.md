@@ -332,31 +332,80 @@ Price $%s
 
 ### 11. Custom Listings
 
+- JetEngine has ability to create **custom listings**
+- A **listing** is a the way a single post appears in a post list / post grid
+- A post list / grid is called a **loop**
+
+- JetEngine > Listings > Add New
+- **Listing Source:** Posts
+- **From Post Type:** Properties
+- **Listing Item Name:** Property Listing
+- **Listing View:** Elementor
+
+!!! #TIP: JetEngine works with both Elementor and Gutenberg
+
+- Create Listing Item
+
+---
+
+- Gear Settings lower left - Listing Item Settings:
+- **Listing Source:** Posts
+- **From Post type:** Properties
+- **Preview Width:** 380px
+
+---
 
 
+- In Elementor Widgets editor: Go to bottom in **Listing Elements** section:
+- Drag in **dynamic image** widget
+- **Image Size:** Medium large
+- **Linked Image:** yes
+- **Link Source:** Permalink
+- **Alignment:** Center
+
+---
+
+- Add **dynamic field** widget: Title
+
+---
+
+- Add **dynamic field** Meta Data: Property Price
+  - Filter field output
+  - Callback: Format Number
+  - Decimal points: 0
+  - Field format: Price $%s
+
+---
+
+- Add **dynamic field** Meta Data: Location
+  - Filter field output: DISABLE
+  - Field format: Location: $%s
+
+---
+
+- Click the listing section
+- Add box shadow
+- Add 20px padding
+- Publish
+
+!!! #GOTCHA: Page refresh doesn't change the look!
+
+---
+
+- Exit to Dashboard
+- Templates
+- Default Property Archive > Edit with Elementor
+- Delete post archive widget
+- Drag in JetEngine Listing Grid widget
+- **Listing:** Property Listing
 
 ### 12. Outro
 
-
-
-### 0. Introduction
-
-#### 0.0 Welcome
-  
-- How build wp plugins w WP API
-- Choosing good dev env
-- Secure WP plugins
-- Best Practices
-- Create complete wp plugin
-
-#### 0.1 How to use the exercise files
-
+- Just stuff about like , subscribe, check out other videos, etc.
 
 
 
 ---
-#### @@ 38:32 - STOPPED
-
 
 
 <a id="bookmark" href="#top-bookmark-btn" title="back to top">BOOKMARK</a>
