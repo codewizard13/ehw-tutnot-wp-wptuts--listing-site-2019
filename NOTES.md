@@ -184,22 +184,96 @@ NEXT: Creating custom taxonomies
 #### Creating some dummy posts
 
 - Ground Apartment, 2 para, price 350k, London, add 4 pix in gallery
+- Beach Front Studio, Bristol
+- Modern House, Cardiff
 
 - Now look at Properties list page and all our relevant info should be in the columns
 
 #### #GOTCHA: Had to git rebase to change some older commit messages from README.md to NOTES.md
 
-
-
-
-
-
-
-
-
-
 ### 09. Creating Template Files
+
+- Wpadmin > Templates > Theme Builder
+
+!!! #GOTCHA: He has already created templates: Default Footer and Default Header
+
+
+#### CREATE ARCHIVE
+
+- **Name:** Default Property Archive
+- Start from scratch
+- You should now see an Elementor editor window with just a header and footer
+- In the middle click the "+" plus sign to add a new section > 1 row 1 col
+- Add 50px padding top/bottom
+  
+!!! #TIP: Since we have selected to create an Archive template, special archive-only widgets now are available in the Elementor editor
+
+- Drag in **Archive Posts** widget
+- Gear settings left bottom corner
+
+**Preview Settings**
+
+- Properties Archive > Apply and Preview
+- Now we should see the 3 dummy property posts we made
+
+- Click the Archive Posts widget
+
+- **Skin:** Cards
+- **Image size:** Medium Large
+- **Image Ratio:** 0.7
+- DISABLE: comments, dates, excerpt, read more, badge, avatar
+
+!!! #TIP: Disabling all those extras gives us a nice, CLEAN layout
+
+- Publish > **Conditions** > Properties Archive > Save and Close
+
+**How to Reference our Post Types:**
+
+- JetEngine > Post Types > Post type Slug
+- Copy slug
+- **Appearance** > Menus > Main Menu
+- **Custom Link:**
+  - URL: /properties/
+  - Link Text: Properties
+
+!!! #TIP: By using the /[SOMETHING]/ construct for the URL, we make the link domain-agnostic :)
+
+- Set Main Menu as **primary** > Save Menu
+
+---
+
+#### #TIP: Default HEADER
+
+(Left to right)
+
+LOGO white ------------------- Home -- Sample Page -- Properties |  [phone icon][&phone;] NNN-NNN-NNNN
+
+#### #TIP: Default FOOTER
+
+LOGO LARGE color ----------- [SEARCH FIELD -> Enter your email to join our mailing list ]  [button -> Yes, Please -> ]
+
+[HR 100% Width]
+
+Follow Us -- [social icons] ---------------------------- [&copy;] All Rights Reserved
+
+
+---
+
+- Navigate to Home page
+- Click on Properties menu item
+- Now you should see our 3 properties in a row -> This is the archive page :)
+
+!!! #GOTCHA: If you click on a post it is a very basic layout with none of the extra custom fields / meta fields we provided. We need to create custom single property template.
+
 ### 10. Creating Single Post Template
+
+
+
+
+
+
+
+
 ### 11. Custom Listings
 ### 12. Outro
 
