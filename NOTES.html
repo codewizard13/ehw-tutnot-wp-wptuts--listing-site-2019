@@ -4309,385 +4309,411 @@ body,
 </div>
 <h4 data-line="114" class="code-line" dir="auto" id="admin-column-featured-image" tabindex="-1">Admin Column: Featured Image</h4>
 <ul data-line="116" class="code-line" dir="auto">
-<li data-line="116" class="code-line" dir="auto">WPADMIN &gt; JetEngine &gt; Post Types &gt; Click "Properties" in Post Type column</li>
-<li data-line="117" class="code-line" dir="auto">Scroll to bottom and click Admin Columns &gt; Add New</li>
-<li data-line="118" class="code-line" dir="auto"><strong>Title:</strong> Featured Image</li>
-<li data-line="119" class="code-line" dir="auto"><strong>Type:</strong> Select from existing callbacks &gt; Render image tag ...
-<ul data-line="120" class="code-line" dir="auto">
-<li data-line="120" class="code-line" dir="auto">Set Field: thumbnail</li>
-<li data-line="121" class="code-line" dir="auto">Size: 100</li>
+<li data-line="116" class="code-line" dir="auto">
+<p data-line="116" class="code-line" dir="auto">WPADMIN &gt; JetEngine &gt; Post Types &gt; Click "Properties" in Post Type column</p>
+</li>
+<li data-line="117" class="code-line" dir="auto">
+<p data-line="117" class="code-line" dir="auto">Scroll to bottom and click Admin Columns &gt; Add New</p>
+</li>
+<li data-line="118" class="code-line" dir="auto">
+<p data-line="118" class="code-line" dir="auto"><strong>Title:</strong> Featured Image</p>
+</li>
+<li data-line="119" class="code-line" dir="auto">
+<p data-line="119" class="code-line" dir="auto"><strong>Type:</strong> Select from existing callbacks"</p>
+<p data-line="121" class="code-line" dir="auto"><code>jet_engine_custom_cb_render_image</code> Render image tag by post thumbnail or image from meta</p>
+<ul data-line="123" class="code-line" dir="auto">
+<li data-line="123" class="code-line" dir="auto">Set Field: thumbnail</li>
+<li data-line="124" class="code-line" dir="auto">Size: 100</li>
 </ul>
 </li>
-<li data-line="122" class="code-line" dir="auto"><strong>Column Order:</strong> 2</li>
+<li data-line="125" class="code-line" dir="auto">
+<p data-line="125" class="code-line" dir="auto"><strong>Column Order:</strong> 2</p>
+</li>
 </ul>
-<h4 data-line="124" class="code-line" dir="auto" id="admin-column-property-location" tabindex="-1">ADMIN Column: Property Location</h4>
-<ul data-line="126" class="code-line" dir="auto">
-<li data-line="126" class="code-line" dir="auto">
-<p data-line="126" class="code-line" dir="auto"><strong>Title:</strong> Property Location</p>
-</li>
-<li data-line="127" class="code-line" dir="auto">
-<p data-line="127" class="code-line" dir="auto"><strong>Type:</strong> Meta Value</p>
-</li>
-<li data-line="129" class="code-line" dir="auto">
-<p data-line="129" class="code-line" dir="auto">Scroll up to the Location custom field and grab the field ID/Name</p>
-</li>
-<li data-line="130" class="code-line" dir="auto">
-<p data-line="130" class="code-line" dir="auto"><strong>Field Name:</strong> location</p>
-</li>
+<p data-line="127" class="code-line" dir="auto"><img src="./img/screen-jetengine--admin-cols--feat-img_600px.jpg" alt="" data-src="./img/screen-jetengine--admin-cols--feat-img_600px.jpg"></p>
+<h4 data-line="129" class="code-line" dir="auto" id="admin-column-property-location" tabindex="-1">ADMIN Column: Property Location</h4>
+<ul data-line="131" class="code-line" dir="auto">
 <li data-line="131" class="code-line" dir="auto">
-<p data-line="131" class="code-line" dir="auto"><strong>Column Order:</strong> 3</p>
+<p data-line="131" class="code-line" dir="auto"><strong>Title:</strong> Property Location</p>
 </li>
 <li data-line="132" class="code-line" dir="auto">
-<p data-line="132" class="code-line" dir="auto"><strong>Is Sortable:</strong> yes</p>
+<p data-line="132" class="code-line" dir="auto"><strong>Type:</strong> Meta Value</p>
 </li>
 <li data-line="134" class="code-line" dir="auto">
-<p data-line="134" class="code-line" dir="auto">Update Post Type</p>
+<p data-line="134" class="code-line" dir="auto">Scroll up to the Location custom field and grab the field ID/Name</p>
 </li>
 <li data-line="135" class="code-line" dir="auto">
-<p data-line="135" class="code-line" dir="auto">Go back to the properties list and you can see the new columns are there</p>
+<p data-line="135" class="code-line" dir="auto"><strong>Field Name:</strong> location</p>
+</li>
+<li data-line="136" class="code-line" dir="auto">
+<p data-line="136" class="code-line" dir="auto"><strong>Column Order:</strong> 3</p>
+</li>
+<li data-line="137" class="code-line" dir="auto">
+<p data-line="137" class="code-line" dir="auto"><strong>Is Sortable:</strong> yes</p>
+</li>
+<li data-line="139" class="code-line" dir="auto">
+<p data-line="139" class="code-line" dir="auto">Update Post Type</p>
+</li>
+<li data-line="140" class="code-line" dir="auto">
+<p data-line="140" class="code-line" dir="auto">Go back to the properties list and you can see the new columns are there</p>
 </li>
 </ul>
-<p data-line="137" class="code-line" dir="auto">NEXT: Creating custom taxonomies</p>
-<h3 data-line="140" class="code-line" dir="auto" id="08-creating-custom-taxonomy" tabindex="-1">08. Creating Custom Taxonomy</h3>
-<ul data-line="142" class="code-line" dir="auto">
-<li data-line="142" class="code-line" dir="auto">Create Property Types taxonomy</li>
-<li data-line="143" class="code-line" dir="auto"><strong>JetEngine &gt; Taxonomies &gt; Add New</strong></li>
-</ul>
-<p data-line="145" class="code-line" dir="auto"><strong>General Settings:</strong></p>
+<p data-line="142" class="code-line" dir="auto">NEXT: Creating custom taxonomies</p>
+<h3 data-line="145" class="code-line" dir="auto" id="08-creating-custom-taxonomy" tabindex="-1">08. Creating Custom Taxonomy</h3>
 <ul data-line="147" class="code-line" dir="auto">
-<li data-line="147" class="code-line" dir="auto"><strong>Taxonomy Name:</strong> Property Types</li>
-<li data-line="148" class="code-line" dir="auto"><strong>Post Type:</strong> Properties</li>
+<li data-line="147" class="code-line" dir="auto">Create Property Types taxonomy</li>
+<li data-line="148" class="code-line" dir="auto"><strong>JetEngine &gt; Taxonomies &gt; Add New</strong></li>
 </ul>
-<p data-line="150" class="code-line" dir="auto"><strong>Labels:</strong></p>
+<p data-line="150" class="code-line" dir="auto"><strong>General Settings:</strong></p>
 <ul data-line="152" class="code-line" dir="auto">
-<li data-line="152" class="code-line" dir="auto">(optional)</li>
+<li data-line="152" class="code-line" dir="auto"><strong>Taxonomy Name:</strong> Property Types</li>
+<li data-line="153" class="code-line" dir="auto"><strong>Post Type:</strong> Properties</li>
 </ul>
-<p data-line="154" class="code-line" dir="auto"><strong>Advanced Settings:</strong></p>
-<div data-line="156" class="code-line admonition note" dir="auto">
-<p data-line="156" class="code-line admonition-title" dir="auto">#TIP: Admin Menu is also called admin bar (menu at top in wpadmin)</p>
+<p data-line="155" class="code-line" dir="auto"><strong>Labels:</strong></p>
+<ul data-line="157" class="code-line" dir="auto">
+<li data-line="157" class="code-line" dir="auto">(optional)</li>
+</ul>
+<p data-line="159" class="code-line" dir="auto"><strong>Advanced Settings:</strong></p>
+<div data-line="161" class="code-line admonition note" dir="auto">
+<p data-line="161" class="code-line admonition-title" dir="auto">#TIP: Admin Menu is also called admin bar (menu at top in wpadmin)</p>
 </div>
-<ul data-line="158" class="code-line" dir="auto">
-<li data-line="158" class="code-line" dir="auto"><strong>Hierarchical:</strong> Yes</li>
+<ul data-line="163" class="code-line" dir="auto">
+<li data-line="163" class="code-line" dir="auto"><strong>Hierarchical:</strong> Yes</li>
 </ul>
-<p data-line="160" class="code-line" dir="auto"><strong>Meta Fields:</strong></p>
-<ul data-line="162" class="code-line" dir="auto">
-<li data-line="162" class="code-line" dir="auto">Can add extra info to an archive page</li>
-<li data-line="163" class="code-line" dir="auto">Will deal with this in a different video</li>
-<li data-line="164" class="code-line" dir="auto">Click "Add Taxonomy" to save</li>
-<li data-line="165" class="code-line" dir="auto">Refresh -&gt; Now Property Types should be a submenu in wpadmin under "Properties"</li>
+<p data-line="165" class="code-line" dir="auto"><strong>Meta Fields:</strong></p>
+<ul data-line="167" class="code-line" dir="auto">
+<li data-line="167" class="code-line" dir="auto">Can add extra info to an archive page</li>
+<li data-line="168" class="code-line" dir="auto">Will deal with this in a different video</li>
+<li data-line="169" class="code-line" dir="auto">Click "Add Taxonomy" to save</li>
+<li data-line="170" class="code-line" dir="auto">Refresh -&gt; Now Property Types should be a submenu in wpadmin under "Properties"</li>
 </ul>
-<hr data-line="167" class="code-line" dir="auto">
-<p data-line="169" class="code-line" dir="auto"><strong>Property Types:</strong></p>
-<p data-line="171" class="code-line" dir="auto">(<u>Name Slug</u>)</p>
-<ul data-line="173" class="code-line" dir="auto">
-<li data-line="173" class="code-line" dir="auto">Flats flats</li>
-<li data-line="174" class="code-line" dir="auto">Apartments apartments</li>
-<li data-line="175" class="code-line" dir="auto">Houses houses</li>
+<hr data-line="172" class="code-line" dir="auto">
+<p data-line="174" class="code-line" dir="auto"><strong>Property Types:</strong></p>
+<p data-line="176" class="code-line" dir="auto">(<u>Name Slug</u>)</p>
+<ul data-line="178" class="code-line" dir="auto">
+<li data-line="178" class="code-line" dir="auto">Flats flats</li>
+<li data-line="179" class="code-line" dir="auto">Apartments apartments</li>
+<li data-line="180" class="code-line" dir="auto">Houses houses</li>
 </ul>
-<div data-line="178" class="code-line admonition note #TIP: The" dir="auto">
-<p data-line="178" class="code-line admonition-title" dir="auto">Parent Category" dropdown only shows up because we set the taxonomy as hierarchical</p>
+<div data-line="183" class="code-line admonition note #TIP: The" dir="auto">
+<p data-line="183" class="code-line admonition-title" dir="auto">Parent Category" dropdown only shows up because we set the taxonomy as hierarchical</p>
 </div>
-<ul data-line="181" class="code-line" dir="auto">
-<li data-line="181" class="code-line" dir="auto">Now if we add a new property, we will see the "Property Types" selector metabox on the right</li>
+<ul data-line="186" class="code-line" dir="auto">
+<li data-line="186" class="code-line" dir="auto">Now if we add a new property, we will see the "Property Types" selector metabox on the right</li>
 </ul>
-<h4 data-line="183" class="code-line" dir="auto" id="creating-some-dummy-posts" tabindex="-1">Creating some dummy posts</h4>
-<ul data-line="185" class="code-line" dir="auto">
-<li data-line="185" class="code-line" dir="auto">
-<p data-line="185" class="code-line" dir="auto">Ground Apartment, 2 para, price 350k, London, add 4 pix in gallery</p>
+<h4 data-line="188" class="code-line" dir="auto" id="creating-a-property-apartment" tabindex="-1">Creating a property: Apartment</h4>
+<ul data-line="190" class="code-line" dir="auto">
+<li data-line="190" class="code-line" dir="auto">Ground Apartment, 2 para, price 350k, London, add 4 pix in gallery</li>
+<li data-line="191" class="code-line" dir="auto">Add filler text in content</li>
+<li data-line="192" class="code-line" dir="auto">Prop Type: Apartments</li>
+<li data-line="193" class="code-line" dir="auto">Choose Featured image</li>
+<li data-line="194" class="code-line" dir="auto">Price: 350000</li>
+<li data-line="195" class="code-line" dir="auto">Location: London</li>
+<li data-line="196" class="code-line" dir="auto">Gallery: Choose a few images</li>
+<li data-line="197" class="code-line" dir="auto">PUBLISH</li>
+</ul>
+<hr data-line="199" class="code-line" dir="auto">
+<h4 data-line="201" class="code-line" dir="auto" id="add-a-few-more-properties" tabindex="-1">ADD a few more properties:</h4>
+<ul data-line="203" class="code-line" dir="auto">
+<li data-line="203" class="code-line" dir="auto">
+<p data-line="203" class="code-line" dir="auto">Beach Front Studio, Bristol, 1,350,880</p>
 </li>
-<li data-line="186" class="code-line" dir="auto">
-<p data-line="186" class="code-line" dir="auto">Beach Front Studio, Bristol</p>
+<li data-line="204" class="code-line" dir="auto">
+<p data-line="204" class="code-line" dir="auto">Modern House, Cardiff, 1,209,771</p>
 </li>
-<li data-line="187" class="code-line" dir="auto">
-<p data-line="187" class="code-line" dir="auto">Modern House, Cardiff</p>
+<li data-line="205" class="code-line" dir="auto">
+<p data-line="205" class="code-line" dir="auto">Beachfront Condo, Miami, Fl, 250,899</p>
 </li>
-<li data-line="189" class="code-line" dir="auto">
-<p data-line="189" class="code-line" dir="auto">Now look at Properties list page and all our relevant info should be in the columns</p>
+<li data-line="206" class="code-line" dir="auto">
+<p data-line="206" class="code-line" dir="auto">Farmhouse in Kent, 1,322,900</p>
+</li>
+<li data-line="208" class="code-line" dir="auto">
+<p data-line="208" class="code-line" dir="auto">Now look at Properties list page and all our relevant info should be in the columns</p>
 </li>
 </ul>
-<h4 data-line="191" class="code-line" dir="auto" id="gotcha-had-to-git-rebase-to-change-some-older-commit-messages-from-readmemd-to-notesmd" tabindex="-1">#GOTCHA: Had to git rebase to change some older commit messages from README.md to NOTES.md</h4>
-<h3 data-line="193" class="code-line" dir="auto" id="09-creating-template-files" tabindex="-1">09. Creating Template Files</h3>
-<ul data-line="195" class="code-line" dir="auto">
-<li data-line="195" class="code-line" dir="auto">Wpadmin &gt; Templates &gt; Theme Builder</li>
+<h4 data-line="210" class="code-line" dir="auto" id="gotcha-had-to-git-rebase-to-change-some-older-commit-messages-from-readmemd-to-notesmd" tabindex="-1">#GOTCHA: Had to git rebase to change some older commit messages from README.md to NOTES.md</h4>
+<h3 data-line="212" class="code-line" dir="auto" id="09-creating-template-files" tabindex="-1">09. Creating Template Files</h3>
+<ul data-line="214" class="code-line" dir="auto">
+<li data-line="214" class="code-line" dir="auto">Wpadmin &gt; Templates &gt; Theme Builder</li>
 </ul>
-<div data-line="197" class="code-line admonition note" dir="auto">
-<p data-line="197" class="code-line admonition-title" dir="auto">#GOTCHA: He has already created templates: Default Footer and Default Header</p>
+<div data-line="216" class="code-line admonition note" dir="auto">
+<p data-line="216" class="code-line admonition-title" dir="auto">#GOTCHA: He has already created templates: Default Footer and Default Header</p>
 </div>
-<h4 data-line="200" class="code-line" dir="auto" id="create-archive" tabindex="-1">CREATE ARCHIVE</h4>
-<ul data-line="202" class="code-line" dir="auto">
-<li data-line="202" class="code-line" dir="auto"><strong>Name:</strong> Default Property Archive</li>
-<li data-line="203" class="code-line" dir="auto">Start from scratch</li>
-<li data-line="204" class="code-line" dir="auto">You should now see an Elementor editor window with just a header and footer</li>
-<li data-line="205" class="code-line" dir="auto">In the middle click the "+" plus sign to add a new section &gt; 1 row 1 col</li>
-<li data-line="206" class="code-line" dir="auto">Add 50px padding top/bottom</li>
+<h4 data-line="219" class="code-line" dir="auto" id="create-archive" tabindex="-1">CREATE ARCHIVE</h4>
+<ul data-line="221" class="code-line" dir="auto">
+<li data-line="221" class="code-line" dir="auto"><strong>Name:</strong> Default Property Archive</li>
+<li data-line="222" class="code-line" dir="auto">Start from scratch</li>
+<li data-line="223" class="code-line" dir="auto">You should now see an Elementor editor window with just a header and footer</li>
+<li data-line="224" class="code-line" dir="auto">In the middle click the "+" plus sign to add a new section &gt; 1 row 1 col</li>
+<li data-line="225" class="code-line" dir="auto">Add 50px padding top/bottom</li>
 </ul>
-<div data-line="208" class="code-line admonition note" dir="auto">
-<p data-line="208" class="code-line admonition-title" dir="auto">#TIP: Since we have selected to create an Archive template, special archive-only widgets now are available in the Elementor editor</p>
+<div data-line="227" class="code-line admonition note" dir="auto">
+<p data-line="227" class="code-line admonition-title" dir="auto">#TIP: Since we have selected to create an Archive template, special archive-only widgets now are available in the Elementor editor</p>
 </div>
-<ul data-line="210" class="code-line" dir="auto">
-<li data-line="210" class="code-line" dir="auto">Drag in <strong>Archive Posts</strong> widget</li>
-<li data-line="211" class="code-line" dir="auto">Gear settings left bottom corner</li>
+<ul data-line="229" class="code-line" dir="auto">
+<li data-line="229" class="code-line" dir="auto">Drag in <strong>Archive Posts</strong> widget</li>
+<li data-line="230" class="code-line" dir="auto">Gear settings left bottom corner</li>
 </ul>
-<p data-line="213" class="code-line" dir="auto"><strong>Preview Settings</strong></p>
-<ul data-line="215" class="code-line" dir="auto">
-<li data-line="215" class="code-line" dir="auto">
-<p data-line="215" class="code-line" dir="auto">Properties Archive &gt; Apply and Preview</p>
+<p data-line="232" class="code-line" dir="auto"><strong>Preview Settings</strong></p>
+<ul data-line="234" class="code-line" dir="auto">
+<li data-line="234" class="code-line" dir="auto">
+<p data-line="234" class="code-line" dir="auto">Properties Archive &gt; Apply and Preview</p>
 </li>
-<li data-line="216" class="code-line" dir="auto">
-<p data-line="216" class="code-line" dir="auto">Now we should see the 3 dummy property posts we made</p>
+<li data-line="235" class="code-line" dir="auto">
+<p data-line="235" class="code-line" dir="auto">Now we should see the 3 dummy property posts we made</p>
 </li>
-<li data-line="218" class="code-line" dir="auto">
-<p data-line="218" class="code-line" dir="auto">Click the Archive Posts widget</p>
+<li data-line="237" class="code-line" dir="auto">
+<p data-line="237" class="code-line" dir="auto">Click the Archive Posts widget</p>
 </li>
-<li data-line="220" class="code-line" dir="auto">
-<p data-line="220" class="code-line" dir="auto"><strong>Skin:</strong> Cards</p>
+<li data-line="239" class="code-line" dir="auto">
+<p data-line="239" class="code-line" dir="auto"><strong>Skin:</strong> Cards</p>
 </li>
-<li data-line="221" class="code-line" dir="auto">
-<p data-line="221" class="code-line" dir="auto"><strong>Image size:</strong> Medium Large</p>
+<li data-line="240" class="code-line" dir="auto">
+<p data-line="240" class="code-line" dir="auto"><strong>Image size:</strong> Medium Large</p>
 </li>
-<li data-line="222" class="code-line" dir="auto">
-<p data-line="222" class="code-line" dir="auto"><strong>Image Ratio:</strong> 0.7</p>
+<li data-line="241" class="code-line" dir="auto">
+<p data-line="241" class="code-line" dir="auto"><strong>Image Ratio:</strong> 0.7</p>
 </li>
-<li data-line="223" class="code-line" dir="auto">
-<p data-line="223" class="code-line" dir="auto">DISABLE: comments, dates, excerpt, read more, badge, avatar</p>
+<li data-line="242" class="code-line" dir="auto">
+<p data-line="242" class="code-line" dir="auto">DISABLE: comments, dates, excerpt, read more, badge, avatar</p>
 </li>
 </ul>
-<div data-line="225" class="code-line admonition note" dir="auto">
-<p data-line="225" class="code-line admonition-title" dir="auto">#TIP: Disabling all those extras gives us a nice, CLEAN layout</p>
+<div data-line="244" class="code-line admonition note" dir="auto">
+<p data-line="244" class="code-line admonition-title" dir="auto">#TIP: Disabling all those extras gives us a nice, CLEAN layout</p>
 </div>
-<ul data-line="227" class="code-line" dir="auto">
-<li data-line="227" class="code-line" dir="auto">Publish &gt; <strong>Conditions</strong> &gt; Properties Archive &gt; Save and Close</li>
+<ul data-line="246" class="code-line" dir="auto">
+<li data-line="246" class="code-line" dir="auto">Publish &gt; <strong>Conditions</strong> &gt; Properties Archive &gt; Save and Close</li>
 </ul>
-<p data-line="229" class="code-line" dir="auto"><strong>How to Reference our Post Types:</strong></p>
-<ul data-line="231" class="code-line" dir="auto">
-<li data-line="231" class="code-line" dir="auto">JetEngine &gt; Post Types &gt; Post type Slug</li>
-<li data-line="232" class="code-line" dir="auto">Copy slug</li>
-<li data-line="233" class="code-line" dir="auto"><strong>Appearance</strong> &gt; Menus &gt; Main Menu</li>
-<li data-line="234" class="code-line" dir="auto"><strong>Custom Link:</strong>
-<ul data-line="235" class="code-line" dir="auto">
-<li data-line="235" class="code-line" dir="auto">URL: /properties/</li>
-<li data-line="236" class="code-line" dir="auto">Link Text: Properties</li>
+<p data-line="248" class="code-line" dir="auto"><strong>How to Reference our Post Types:</strong></p>
+<ul data-line="250" class="code-line" dir="auto">
+<li data-line="250" class="code-line" dir="auto">JetEngine &gt; Post Types &gt; Post type Slug</li>
+<li data-line="251" class="code-line" dir="auto">Copy slug</li>
+<li data-line="252" class="code-line" dir="auto"><strong>Appearance</strong> &gt; Menus &gt; Main Menu</li>
+<li data-line="253" class="code-line" dir="auto"><strong>Custom Link:</strong>
+<ul data-line="254" class="code-line" dir="auto">
+<li data-line="254" class="code-line" dir="auto">URL: /properties/</li>
+<li data-line="255" class="code-line" dir="auto">Link Text: Properties</li>
 </ul>
 </li>
 </ul>
-<div data-line="238" class="code-line admonition note" dir="auto">
-<p data-line="238" class="code-line admonition-title" dir="auto">#TIP: By using the /[SOMETHING]/ construct for the URL, we make the link domain-agnostic 😃</p>
+<div data-line="257" class="code-line admonition note" dir="auto">
+<p data-line="257" class="code-line admonition-title" dir="auto">#TIP: By using the /[SOMETHING]/ construct for the URL, we make the link domain-agnostic 😃</p>
 </div>
-<ul data-line="240" class="code-line" dir="auto">
-<li data-line="240" class="code-line" dir="auto">Set Main Menu as <strong>primary</strong> &gt; Save Menu</li>
+<ul data-line="259" class="code-line" dir="auto">
+<li data-line="259" class="code-line" dir="auto">Set Main Menu as <strong>primary</strong> &gt; Save Menu</li>
 </ul>
-<hr data-line="242" class="code-line" dir="auto">
-<h4 data-line="244" class="code-line" dir="auto" id="tip-default-header" tabindex="-1">#TIP: Default HEADER</h4>
-<p data-line="246" class="code-line" dir="auto">(Left to right)</p>
-<p data-line="248" class="code-line" dir="auto">LOGO white ------------------- Home -- Sample Page -- Properties |  [phone icon][☎] NNN-NNN-NNNN</p>
-<h4 data-line="250" class="code-line" dir="auto" id="tip-default-footer" tabindex="-1">#TIP: Default FOOTER</h4>
-<p data-line="252" class="code-line" dir="auto">LOGO LARGE color ----------- [SEARCH FIELD -&gt; Enter your email to join our mailing list ]  [button -&gt; Yes, Please -&gt; ]</p>
-<p data-line="254" class="code-line" dir="auto">[HR 100% Width]</p>
-<p data-line="256" class="code-line" dir="auto">Follow Us -- [social icons] ---------------------------- [©] All Rights Reserved</p>
-<hr data-line="259" class="code-line" dir="auto">
-<ul data-line="261" class="code-line" dir="auto">
-<li data-line="261" class="code-line" dir="auto">Navigate to Home page</li>
-<li data-line="262" class="code-line" dir="auto">Click on Properties menu item</li>
-<li data-line="263" class="code-line" dir="auto">Now you should see our 3 properties in a row -&gt; This is the archive page 😃</li>
+<hr data-line="261" class="code-line" dir="auto">
+<h4 data-line="263" class="code-line" dir="auto" id="tip-default-header" tabindex="-1">#TIP: Default HEADER</h4>
+<p data-line="265" class="code-line" dir="auto">(Left to right)</p>
+<p data-line="267" class="code-line" dir="auto">LOGO white ------------------- Home -- Sample Page -- Properties |  [phone icon][☎] NNN-NNN-NNNN</p>
+<h4 data-line="269" class="code-line" dir="auto" id="tip-default-footer" tabindex="-1">#TIP: Default FOOTER</h4>
+<p data-line="271" class="code-line" dir="auto">LOGO LARGE color ----------- [SEARCH FIELD -&gt; Enter your email to join our mailing list ]  [button -&gt; Yes, Please -&gt; ]</p>
+<p data-line="273" class="code-line" dir="auto">[HR 100% Width]</p>
+<p data-line="275" class="code-line" dir="auto">Follow Us -- [social icons] ---------------------------- [©] All Rights Reserved</p>
+<hr data-line="278" class="code-line" dir="auto">
+<ul data-line="280" class="code-line" dir="auto">
+<li data-line="280" class="code-line" dir="auto">Navigate to Home page</li>
+<li data-line="281" class="code-line" dir="auto">Click on Properties menu item</li>
+<li data-line="282" class="code-line" dir="auto">Now you should see our 3 properties in a row -&gt; This is the archive page 😃</li>
 </ul>
-<div data-line="265" class="code-line admonition note" dir="auto">
-<p data-line="265" class="code-line admonition-title" dir="auto">#GOTCHA: If you click on a post it is a very basic layout with none of the extra custom fields / meta fields we provided. We need to create custom single property template.</p>
+<div data-line="284" class="code-line admonition note" dir="auto">
+<p data-line="284" class="code-line admonition-title" dir="auto">#GOTCHA: If you click on a post it is a very basic layout with none of the extra custom fields / meta fields we provided. We need to create custom single property template.</p>
 </div>
-<h3 data-line="267" class="code-line" dir="auto" id="10-creating-single-post-template" tabindex="-1">10. Creating Single Post Template</h3>
-<ul data-line="269" class="code-line" dir="auto">
-<li data-line="269" class="code-line" dir="auto">Wpadmin &gt; Templates &gt; Single &gt; Properties &gt; Default Property Single &gt; Create Template</li>
+<h3 data-line="286" class="code-line" dir="auto" id="10-creating-single-post-template" tabindex="-1">10. Creating Single Post Template</h3>
+<ul data-line="288" class="code-line" dir="auto">
+<li data-line="288" class="code-line" dir="auto">Wpadmin &gt; Templates &gt; Single &gt; Properties &gt; Default Property Single &gt; Create Template</li>
 </ul>
-<div data-line="271" class="code-line admonition note" dir="auto">
-<p data-line="271" class="code-line admonition-title" dir="auto">#TIP: There are single-post-only widgets available in the Elementor editor now</p>
+<div data-line="290" class="code-line admonition note" dir="auto">
+<p data-line="290" class="code-line admonition-title" dir="auto">#TIP: There are single-post-only widgets available in the Elementor editor now</p>
 </div>
-<ul data-line="274" class="code-line" dir="auto">
-<li data-line="274" class="code-line" dir="auto">
-<p data-line="274" class="code-line" dir="auto">ADD SEC: 1 row, 1 col</p>
-</li>
-<li data-line="275" class="code-line" dir="auto">
-<p data-line="275" class="code-line" dir="auto">Add 50px top/bottom Padding</p>
-</li>
-<li data-line="277" class="code-line" dir="auto">
-<p data-line="277" class="code-line" dir="auto">Drag <strong>featured image</strong> widget into sec</p>
-</li>
-<li data-line="279" class="code-line" dir="auto">
-<p data-line="279" class="code-line" dir="auto">Create a 2 col sec [75 / 25]</p>
-</li>
-<li data-line="280" class="code-line" dir="auto">
-<p data-line="280" class="code-line" dir="auto">Add <strong>post title</strong> into left col</p>
-</li>
-<li data-line="281" class="code-line" dir="auto">
-<p data-line="281" class="code-line" dir="auto">Add <strong>post content</strong> into left col</p>
-</li>
-</ul>
-<p data-line="284" class="code-line" dir="auto"><strong>Add Gallery:</strong></p>
-<ul data-line="286" class="code-line" dir="auto">
-<li data-line="286" class="code-line" dir="auto">
-<p data-line="286" class="code-line" dir="auto">Drag <strong>gallery</strong> widget (from Pro sec) below post content</p>
-</li>
-<li data-line="288" class="code-line" dir="auto">
-<p data-line="288" class="code-line" dir="auto">Click the [database] icon (aka: dynamic data) &gt; JetEngine Gallery</p>
-</li>
-<li data-line="289" class="code-line" dir="auto">
-<p data-line="289" class="code-line" dir="auto">Click wrench icon 🔧</p>
-</li>
-<li data-line="290" class="code-line" dir="auto">
-<p data-line="290" class="code-line" dir="auto">Click Field &gt; Gallery</p>
-</li>
-<li data-line="292" class="code-line" dir="auto">
-<p data-line="292" class="code-line" dir="auto">We can now configure the gallery</p>
-</li>
+<ul data-line="293" class="code-line" dir="auto">
 <li data-line="293" class="code-line" dir="auto">
-<p data-line="293" class="code-line" dir="auto"><strong>Columns:</strong> 3</p>
+<p data-line="293" class="code-line" dir="auto">ADD SEC: 1 row, 1 col</p>
 </li>
 <li data-line="294" class="code-line" dir="auto">
-<p data-line="294" class="code-line" dir="auto"><strong>Image Size:</strong> Medium Large</p>
+<p data-line="294" class="code-line" dir="auto">Add 50px top/bottom Padding</p>
+</li>
+<li data-line="296" class="code-line" dir="auto">
+<p data-line="296" class="code-line" dir="auto">Drag <strong>featured image</strong> widget into sec</p>
+</li>
+<li data-line="298" class="code-line" dir="auto">
+<p data-line="298" class="code-line" dir="auto">Create a 2 col sec [75 / 25]</p>
+</li>
+<li data-line="299" class="code-line" dir="auto">
+<p data-line="299" class="code-line" dir="auto">Add <strong>post title</strong> into left col</p>
+</li>
+<li data-line="300" class="code-line" dir="auto">
+<p data-line="300" class="code-line" dir="auto">Add <strong>post content</strong> into left col</p>
 </li>
 </ul>
-<hr data-line="297" class="code-line" dir="auto">
-<ul data-line="299" class="code-line" dir="auto">
-<li data-line="299" class="code-line" dir="auto">Add <strong>heading</strong> widget above gallery: Property Gallery</li>
+<p data-line="303" class="code-line" dir="auto"><strong>Add Gallery:</strong></p>
+<ul data-line="305" class="code-line" dir="auto">
+<li data-line="305" class="code-line" dir="auto">
+<p data-line="305" class="code-line" dir="auto">Drag <strong>gallery</strong> widget (from Pro sec) below post content</p>
+</li>
+<li data-line="307" class="code-line" dir="auto">
+<p data-line="307" class="code-line" dir="auto">Click the [database] icon (aka: dynamic data) &gt; JetEngine Gallery</p>
+</li>
+<li data-line="308" class="code-line" dir="auto">
+<p data-line="308" class="code-line" dir="auto">Click wrench icon 🔧</p>
+</li>
+<li data-line="309" class="code-line" dir="auto">
+<p data-line="309" class="code-line" dir="auto">Click Field &gt; Gallery</p>
+</li>
+<li data-line="311" class="code-line" dir="auto">
+<p data-line="311" class="code-line" dir="auto">We can now configure the gallery</p>
+</li>
+<li data-line="312" class="code-line" dir="auto">
+<p data-line="312" class="code-line" dir="auto"><strong>Columns:</strong> 3</p>
+</li>
+<li data-line="313" class="code-line" dir="auto">
+<p data-line="313" class="code-line" dir="auto"><strong>Image Size:</strong> Medium Large</p>
+</li>
 </ul>
-<hr data-line="301" class="code-line" dir="auto">
-<h4 data-line="304" class="code-line" dir="auto" id="add-in-custom-field-values" tabindex="-1">ADD IN CUSTOM FIELD VALUES</h4>
-<p data-line="306" class="code-line" dir="auto"><strong>Price</strong></p>
-<ul data-line="308" class="code-line" dir="auto">
-<li data-line="308" class="code-line" dir="auto">Scroll to bottom to JetEngine's <strong>Listing Elements</strong> sec in Elementor widgets</li>
-<li data-line="309" class="code-line" dir="auto">Drag <strong>dynamic field</strong> widget into right col
-<ul data-line="310" class="code-line" dir="auto">
-<li data-line="310" class="code-line" dir="auto">Source: Meta Data</li>
-<li data-line="311" class="code-line" dir="auto">Meta Field: Property Price</li>
+<hr data-line="316" class="code-line" dir="auto">
+<ul data-line="318" class="code-line" dir="auto">
+<li data-line="318" class="code-line" dir="auto">Add <strong>heading</strong> widget above gallery: Property Gallery</li>
+</ul>
+<hr data-line="320" class="code-line" dir="auto">
+<h4 data-line="323" class="code-line" dir="auto" id="add-in-custom-field-values" tabindex="-1">ADD IN CUSTOM FIELD VALUES</h4>
+<p data-line="325" class="code-line" dir="auto"><strong>Price</strong></p>
+<ul data-line="327" class="code-line" dir="auto">
+<li data-line="327" class="code-line" dir="auto">Scroll to bottom to JetEngine's <strong>Listing Elements</strong> sec in Elementor widgets</li>
+<li data-line="328" class="code-line" dir="auto">Drag <strong>dynamic field</strong> widget into right col
+<ul data-line="329" class="code-line" dir="auto">
+<li data-line="329" class="code-line" dir="auto">Source: Meta Data</li>
+<li data-line="330" class="code-line" dir="auto">Meta Field: Property Price</li>
 </ul>
 </li>
 </ul>
-<div data-line="313" class="code-line admonition note" dir="auto">
-<p data-line="313" class="code-line admonition-title" dir="auto">#GOTCHA: The price is just an un-formatted number.</p>
+<div data-line="332" class="code-line admonition note" dir="auto">
+<p data-line="332" class="code-line admonition-title" dir="auto">#GOTCHA: The price is just an un-formatted number.</p>
 </div>
-<ul data-line="315" class="code-line" dir="auto">
-<li data-line="315" class="code-line" dir="auto"><strong>Filter field output:</strong></li>
-<li data-line="316" class="code-line" dir="auto">Callback: Format Number
-<ul data-line="317" class="code-line" dir="auto">
-<li data-line="317" class="code-line" dir="auto">Decimal points: 0</li>
-</ul>
-</li>
-<li data-line="318" class="code-line" dir="auto"><strong>Customize field output:</strong></li>
-<li data-line="319" class="code-line" dir="auto">Field format:</li>
-</ul>
-<pre><code data-line="321" class="code-line" dir="auto">Price $%s
-</code></pre>
-<p data-line="325" class="code-line" dir="auto"><strong>Location</strong></p>
-<ul data-line="326" class="code-line" dir="auto">
-<li data-line="326" class="code-line" dir="auto">
-<p data-line="326" class="code-line" dir="auto">Clone price field</p>
-</li>
-<li data-line="327" class="code-line" dir="auto">
-<p data-line="327" class="code-line" dir="auto">Field format: <code>Location: %s</code></p>
-</li>
-<li data-line="329" class="code-line" dir="auto">
-<p data-line="329" class="code-line" dir="auto">Publish &gt; Add Condition:</p>
-<ul data-line="330" class="code-line" dir="auto">
-<li data-line="330" class="code-line" dir="auto">Properties &gt; All &gt; Save and Close</li>
-</ul>
-</li>
-</ul>
-<h3 data-line="332" class="code-line" dir="auto" id="11-custom-listings" tabindex="-1">11. Custom Listings</h3>
 <ul data-line="334" class="code-line" dir="auto">
-<li data-line="334" class="code-line" dir="auto">
-<p data-line="334" class="code-line" dir="auto">JetEngine has ability to create <strong>custom listings</strong></p>
+<li data-line="334" class="code-line" dir="auto"><strong>Filter field output:</strong></li>
+<li data-line="335" class="code-line" dir="auto">Callback: Format Number
+<ul data-line="336" class="code-line" dir="auto">
+<li data-line="336" class="code-line" dir="auto">Decimal points: 0</li>
+</ul>
 </li>
-<li data-line="335" class="code-line" dir="auto">
-<p data-line="335" class="code-line" dir="auto">A <strong>listing</strong> is a the way a single post appears in a post list / post grid</p>
+<li data-line="337" class="code-line" dir="auto"><strong>Customize field output:</strong></li>
+<li data-line="338" class="code-line" dir="auto">Field format:</li>
+</ul>
+<pre><code data-line="340" class="code-line" dir="auto">Price $%s
+</code></pre>
+<p data-line="344" class="code-line" dir="auto"><strong>Location</strong></p>
+<ul data-line="345" class="code-line" dir="auto">
+<li data-line="345" class="code-line" dir="auto">
+<p data-line="345" class="code-line" dir="auto">Clone price field</p>
 </li>
-<li data-line="336" class="code-line" dir="auto">
-<p data-line="336" class="code-line" dir="auto">A post list / grid is called a <strong>loop</strong></p>
+<li data-line="346" class="code-line" dir="auto">
+<p data-line="346" class="code-line" dir="auto">Field format: <code>Location: %s</code></p>
 </li>
-<li data-line="338" class="code-line" dir="auto">
-<p data-line="338" class="code-line" dir="auto">JetEngine &gt; Listings &gt; Add New</p>
-</li>
-<li data-line="339" class="code-line" dir="auto">
-<p data-line="339" class="code-line" dir="auto"><strong>Listing Source:</strong> Posts</p>
-</li>
-<li data-line="340" class="code-line" dir="auto">
-<p data-line="340" class="code-line" dir="auto"><strong>From Post Type:</strong> Properties</p>
-</li>
-<li data-line="341" class="code-line" dir="auto">
-<p data-line="341" class="code-line" dir="auto"><strong>Listing Item Name:</strong> Property Listing</p>
-</li>
-<li data-line="342" class="code-line" dir="auto">
-<p data-line="342" class="code-line" dir="auto"><strong>Listing View:</strong> Elementor</p>
+<li data-line="348" class="code-line" dir="auto">
+<p data-line="348" class="code-line" dir="auto">Publish &gt; Add Condition:</p>
+<ul data-line="349" class="code-line" dir="auto">
+<li data-line="349" class="code-line" dir="auto">Properties &gt; All &gt; Save and Close</li>
+</ul>
 </li>
 </ul>
-<div data-line="344" class="code-line admonition note" dir="auto">
-<p data-line="344" class="code-line admonition-title" dir="auto">#TIP: JetEngine works with both Elementor and Gutenberg</p>
+<h3 data-line="351" class="code-line" dir="auto" id="11-custom-listings" tabindex="-1">11. Custom Listings</h3>
+<ul data-line="353" class="code-line" dir="auto">
+<li data-line="353" class="code-line" dir="auto">
+<p data-line="353" class="code-line" dir="auto">JetEngine has ability to create <strong>custom listings</strong></p>
+</li>
+<li data-line="354" class="code-line" dir="auto">
+<p data-line="354" class="code-line" dir="auto">A <strong>listing</strong> is a the way a single post appears in a post list / post grid</p>
+</li>
+<li data-line="355" class="code-line" dir="auto">
+<p data-line="355" class="code-line" dir="auto">A post list / grid is called a <strong>loop</strong></p>
+</li>
+<li data-line="357" class="code-line" dir="auto">
+<p data-line="357" class="code-line" dir="auto">JetEngine &gt; Listings &gt; Add New</p>
+</li>
+<li data-line="358" class="code-line" dir="auto">
+<p data-line="358" class="code-line" dir="auto"><strong>Listing Source:</strong> Posts</p>
+</li>
+<li data-line="359" class="code-line" dir="auto">
+<p data-line="359" class="code-line" dir="auto"><strong>From Post Type:</strong> Properties</p>
+</li>
+<li data-line="360" class="code-line" dir="auto">
+<p data-line="360" class="code-line" dir="auto"><strong>Listing Item Name:</strong> Property Listing</p>
+</li>
+<li data-line="361" class="code-line" dir="auto">
+<p data-line="361" class="code-line" dir="auto"><strong>Listing View:</strong> Elementor</p>
+</li>
+</ul>
+<div data-line="363" class="code-line admonition note" dir="auto">
+<p data-line="363" class="code-line admonition-title" dir="auto">#TIP: JetEngine works with both Elementor and Gutenberg</p>
 </div>
-<ul data-line="346" class="code-line" dir="auto">
-<li data-line="346" class="code-line" dir="auto">Create Listing Item</li>
+<ul data-line="365" class="code-line" dir="auto">
+<li data-line="365" class="code-line" dir="auto">Create Listing Item</li>
 </ul>
-<hr data-line="348" class="code-line" dir="auto">
-<ul data-line="350" class="code-line" dir="auto">
-<li data-line="350" class="code-line" dir="auto">Gear Settings lower left - Listing Item Settings:</li>
-<li data-line="351" class="code-line" dir="auto"><strong>Listing Source:</strong> Posts</li>
-<li data-line="352" class="code-line" dir="auto"><strong>From Post type:</strong> Properties</li>
-<li data-line="353" class="code-line" dir="auto"><strong>Preview Width:</strong> 380px</li>
+<hr data-line="367" class="code-line" dir="auto">
+<ul data-line="369" class="code-line" dir="auto">
+<li data-line="369" class="code-line" dir="auto">Gear Settings lower left - Listing Item Settings:</li>
+<li data-line="370" class="code-line" dir="auto"><strong>Listing Source:</strong> Posts</li>
+<li data-line="371" class="code-line" dir="auto"><strong>From Post type:</strong> Properties</li>
+<li data-line="372" class="code-line" dir="auto"><strong>Preview Width:</strong> 380px</li>
 </ul>
-<hr data-line="355" class="code-line" dir="auto">
-<ul data-line="358" class="code-line" dir="auto">
-<li data-line="358" class="code-line" dir="auto">In Elementor Widgets editor: Go to bottom in <strong>Listing Elements</strong> section:</li>
-<li data-line="359" class="code-line" dir="auto">Drag in <strong>dynamic image</strong> widget</li>
-<li data-line="360" class="code-line" dir="auto"><strong>Image Size:</strong> Medium large</li>
-<li data-line="361" class="code-line" dir="auto"><strong>Linked Image:</strong> yes</li>
-<li data-line="362" class="code-line" dir="auto"><strong>Link Source:</strong> Permalink</li>
-<li data-line="363" class="code-line" dir="auto"><strong>Alignment:</strong> Center</li>
+<hr data-line="374" class="code-line" dir="auto">
+<ul data-line="377" class="code-line" dir="auto">
+<li data-line="377" class="code-line" dir="auto">In Elementor Widgets editor: Go to bottom in <strong>Listing Elements</strong> section:</li>
+<li data-line="378" class="code-line" dir="auto">Drag in <strong>dynamic image</strong> widget</li>
+<li data-line="379" class="code-line" dir="auto"><strong>Image Size:</strong> Medium large</li>
+<li data-line="380" class="code-line" dir="auto"><strong>Linked Image:</strong> yes</li>
+<li data-line="381" class="code-line" dir="auto"><strong>Link Source:</strong> Permalink</li>
+<li data-line="382" class="code-line" dir="auto"><strong>Alignment:</strong> Center</li>
 </ul>
-<hr data-line="365" class="code-line" dir="auto">
-<ul data-line="367" class="code-line" dir="auto">
-<li data-line="367" class="code-line" dir="auto">Add <strong>dynamic field</strong> widget: Title</li>
+<hr data-line="384" class="code-line" dir="auto">
+<ul data-line="386" class="code-line" dir="auto">
+<li data-line="386" class="code-line" dir="auto">Add <strong>dynamic field</strong> widget: Title</li>
 </ul>
-<hr data-line="369" class="code-line" dir="auto">
-<ul data-line="371" class="code-line" dir="auto">
-<li data-line="371" class="code-line" dir="auto">Add <strong>dynamic field</strong> Meta Data: Property Price
-<ul data-line="372" class="code-line" dir="auto">
-<li data-line="372" class="code-line" dir="auto">Filter field output</li>
-<li data-line="373" class="code-line" dir="auto">Callback: Format Number</li>
-<li data-line="374" class="code-line" dir="auto">Decimal points: 0</li>
-<li data-line="375" class="code-line" dir="auto">Field format: Price $%s</li>
-</ul>
-</li>
-</ul>
-<hr data-line="377" class="code-line" dir="auto">
-<ul data-line="379" class="code-line" dir="auto">
-<li data-line="379" class="code-line" dir="auto">Add <strong>dynamic field</strong> Meta Data: Location
-<ul data-line="380" class="code-line" dir="auto">
-<li data-line="380" class="code-line" dir="auto">Filter field output: DISABLE</li>
-<li data-line="381" class="code-line" dir="auto">Field format: Location: $%s</li>
+<hr data-line="388" class="code-line" dir="auto">
+<ul data-line="390" class="code-line" dir="auto">
+<li data-line="390" class="code-line" dir="auto">Add <strong>dynamic field</strong> Meta Data: Property Price
+<ul data-line="391" class="code-line" dir="auto">
+<li data-line="391" class="code-line" dir="auto">Filter field output</li>
+<li data-line="392" class="code-line" dir="auto">Callback: Format Number</li>
+<li data-line="393" class="code-line" dir="auto">Decimal points: 0</li>
+<li data-line="394" class="code-line" dir="auto">Field format: Price $%s</li>
 </ul>
 </li>
 </ul>
-<hr data-line="383" class="code-line" dir="auto">
-<ul data-line="385" class="code-line" dir="auto">
-<li data-line="385" class="code-line" dir="auto">Click the listing section</li>
-<li data-line="386" class="code-line" dir="auto">Add box shadow</li>
-<li data-line="387" class="code-line" dir="auto">Add 20px padding</li>
-<li data-line="388" class="code-line" dir="auto">Publish</li>
+<hr data-line="396" class="code-line" dir="auto">
+<ul data-line="398" class="code-line" dir="auto">
+<li data-line="398" class="code-line" dir="auto">Add <strong>dynamic field</strong> Meta Data: Location
+<ul data-line="399" class="code-line" dir="auto">
+<li data-line="399" class="code-line" dir="auto">Filter field output: DISABLE</li>
+<li data-line="400" class="code-line" dir="auto">Field format: Location: $%s</li>
 </ul>
-<div data-line="390" class="code-line admonition note" dir="auto">
-<p data-line="390" class="code-line admonition-title" dir="auto">#GOTCHA: Page refresh doesn't change the look!</p>
+</li>
+</ul>
+<hr data-line="402" class="code-line" dir="auto">
+<ul data-line="404" class="code-line" dir="auto">
+<li data-line="404" class="code-line" dir="auto">Click the listing section</li>
+<li data-line="405" class="code-line" dir="auto">Add box shadow</li>
+<li data-line="406" class="code-line" dir="auto">Add 20px padding</li>
+<li data-line="407" class="code-line" dir="auto">Publish</li>
+</ul>
+<div data-line="409" class="code-line admonition note" dir="auto">
+<p data-line="409" class="code-line admonition-title" dir="auto">#GOTCHA: Page refresh doesn't change the look!</p>
 </div>
-<hr data-line="392" class="code-line" dir="auto">
-<ul data-line="394" class="code-line" dir="auto">
-<li data-line="394" class="code-line" dir="auto">Exit to Dashboard</li>
-<li data-line="395" class="code-line" dir="auto">Templates</li>
-<li data-line="396" class="code-line" dir="auto">Default Property Archive &gt; Edit with Elementor</li>
-<li data-line="397" class="code-line" dir="auto">Delete post archive widget</li>
-<li data-line="398" class="code-line" dir="auto">Drag in JetEngine Listing Grid widget</li>
-<li data-line="399" class="code-line" dir="auto"><strong>Listing:</strong> Property Listing</li>
+<hr data-line="411" class="code-line" dir="auto">
+<ul data-line="413" class="code-line" dir="auto">
+<li data-line="413" class="code-line" dir="auto">Exit to Dashboard</li>
+<li data-line="414" class="code-line" dir="auto">Templates</li>
+<li data-line="415" class="code-line" dir="auto">Default Property Archive &gt; Edit with Elementor</li>
+<li data-line="416" class="code-line" dir="auto">Delete post archive widget</li>
+<li data-line="417" class="code-line" dir="auto">Drag in JetEngine Listing Grid widget</li>
+<li data-line="418" class="code-line" dir="auto"><strong>Listing:</strong> Property Listing</li>
 </ul>
-<h3 data-line="401" class="code-line" dir="auto" id="12-outro" tabindex="-1">12. Outro</h3>
-<ul data-line="403" class="code-line" dir="auto">
-<li data-line="403" class="code-line" dir="auto">Just stuff about like , subscribe, check out other videos, etc.</li>
+<h3 data-line="420" class="code-line" dir="auto" id="12-outro" tabindex="-1">12. Outro</h3>
+<ul data-line="422" class="code-line" dir="auto">
+<li data-line="422" class="code-line" dir="auto">Just stuff about like , subscribe, check out other videos, etc.</li>
 </ul>
-<hr data-line="407" class="code-line" dir="auto">
-<h2 data-line="410" class="code-line" dir="auto" id="a-idbookmark-hreftop-bookmark-btn-titleback-to-topbookmarka" tabindex="-1"><a id="bookmark" href="#top-bookmark-btn" title="back to top">BOOKMARK</a></h2>
+<hr data-line="426" class="code-line" dir="auto">
+<h2 data-line="429" class="code-line" dir="auto" id="a-idbookmark-hreftop-bookmark-btn-titleback-to-topbookmarka" tabindex="-1"><a id="bookmark" href="#top-bookmark-btn" title="back to top">BOOKMARK</a></h2>
 </div>
         </div>
         <script>var Be=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports);var Me=Be((Lt,Ne)=>{var xe="Expected a function",Ae=NaN,Qe="[object Symbol]",Ze=/^\s+|\s+$/g,et=/^[-+]0x[0-9a-f]+$/i,tt=/^0b[01]+$/i,nt=/^0o[0-7]+$/i,rt=parseInt,it=typeof global=="object"&&global&&global.Object===Object&&global,at=typeof self=="object"&&self&&self.Object===Object&&self,ot=it||at||Function("return this")(),st=Object.prototype,lt=st.toString,ct=Math.max,ut=Math.min,ue=function(){return ot.Date.now()};function dt(e,t,n){var r,i,a,s,u,m,d=0,p=!1,b=!1,T=!0;if(typeof e!="function")throw new TypeError(xe);t=Le(t)||0,te(n)&&(p=!!n.leading,b="maxWait"in n,a=b?ct(Le(n.maxWait)||0,t):a,T="trailing"in n?!!n.trailing:T);function E(v){var A=r,_=i;return r=i=void 0,d=v,s=e.apply(_,A),s}function N(v){return d=v,u=setTimeout(L,t),p?E(v):s}function g(v){var A=v-m,_=v-d,h=t-A;return b?ut(h,a-_):h}function S(v){var A=v-m,_=v-d;return m===void 0||A>=t||A<0||b&&_>=a}function L(){var v=ue();if(S(v))return U(v);u=setTimeout(L,g(v))}function U(v){return u=void 0,T&&r?E(v):(r=i=void 0,s)}function R(){u!==void 0&&clearTimeout(u),d=0,r=m=i=u=void 0}function Y(){return u===void 0?s:U(ue())}function I(){var v=ue(),A=S(v);if(r=arguments,i=this,m=v,A){if(u===void 0)return N(m);if(b)return u=setTimeout(L,t),E(m)}return u===void 0&&(u=setTimeout(L,t)),s}return I.cancel=R,I.flush=Y,I}function ft(e,t,n){var r=!0,i=!0;if(typeof e!="function")throw new TypeError(xe);return te(n)&&(r="leading"in n?!!n.leading:r,i="trailing"in n?!!n.trailing:i),dt(e,t,{leading:r,maxWait:t,trailing:i})}function te(e){var t=typeof e;return!!e&&(t=="object"||t=="function")}function mt(e){return!!e&&typeof e=="object"}function gt(e){return typeof e=="symbol"||mt(e)&&lt.call(e)==Qe}function Le(e){if(typeof e=="number")return e;if(gt(e))return Ae;if(te(e)){var t=typeof e.valueOf=="function"?e.valueOf():e;e=te(t)?t+"":t}if(typeof e!="string")return e===0?e:+e;e=e.replace(Ze,"");var n=tt.test(e);return n||nt.test(e)?rt(e.slice(2),n?2:8):et.test(e)?Ae:+e}Ne.exports=ft});var pe="code-line",F=class{constructor(t,n,r){this.element=t;this.line=n;this.codeElement=r;this._detailParentElements=Array.from(Re(t,"DETAILS"))}get isVisible(){return!this._detailParentElements.some(t=>!t.open)}},ae=(()=>{let e,t=-1;return n=>{if(!e||n!==t){t=n,e=[new F(document.body,-1)];for(let r of document.getElementsByClassName(pe)){if(!(r instanceof HTMLElement))continue;let i=+r.getAttribute("data-line");isNaN(i)||(r.tagName==="CODE"&&r.parentElement&&r.parentElement.tagName==="PRE"?e.push(new F(r.parentElement,i,r)):r.tagName==="UL"||r.tagName==="OL"||e.push(new F(r,i)))}}return e}})();function oe(e,t){let n=Math.floor(e),r=ae(t),i=r[0]||null;for(let a of r){if(a.line===n)return{previous:a,next:void 0};if(a.line>n)return{previous:i,next:a};i=a}return{previous:i}}function He(e,t){let n=ae(t).filter(m=>m.isVisible),r=e-window.scrollY,i=-1,a=n.length-1;for(;i+1<a;){let m=Math.floor((i+a)/2),d=W(n[m]);d.top+d.height>=r?a=m:i=m}let s=n[a],u=W(s);return a>=1&&u.top>r?{previous:n[i],next:s}:a>1&&a<n.length&&u.top+u.height>r?{previous:s,next:n[a+1]}:{previous:s}}function W({element:e}){let t=e.getBoundingClientRect(),n=e.querySelector(`.${pe}`);if(n){let r=n.getBoundingClientRect(),i=Math.max(1,r.top-t.top);return{top:t.top,height:i}}return t}function K(e,t,n){if(!n.settings?.scrollPreviewWithEditor)return;if(e<=0){window.scroll(window.scrollX,0);return}let{previous:r,next:i}=oe(e,t);if(!r)return;let a=0,s=W(r),u=s.top;if(i&&i.line!==r.line){let m=(e-r.line)/(i.line-r.line),d=u+s.height,p=i.element.getBoundingClientRect().top-d;a=d+m*p}else{let m=e-Math.floor(e);a=u+s.height*m}a=Math.abs(a)<1?Math.sign(a):a,window.scroll(window.scrollX,Math.max(1,window.scrollY+a))}function se(e,t){let{previous:n,next:r}=He(e,t);if(n){if(n.line<0)return 0;let i=W(n),a=e-window.scrollY-i.top;if(r){let s=a/(W(r).top-i.top);return n.line+s*(r.line-n.line)}else{let s=a/i.height;return n.line+s}}return null}function ve(e,t){return ae(t).find(n=>n.element.id===e)}function*Re(e,t){for(let n=e.parentElement;n;n=n.parentElement)n.tagName===t&&(yield n)}var J=class{onDidChangeTextEditorSelection(t,n){let{previous:r}=oe(t,n);this._update(r&&(r.codeElement||r.element))}_update(t){this._unmarkActiveElement(this._current),this._markActiveElement(t),this._current=t}_unmarkActiveElement(t){t&&t.classList.toggle("code-active-line",!1)}_markActiveElement(t){t&&t.classList.toggle("code-active-line",!0)}};function he(e){document.readyState==="loading"||document.readyState==="uninitialized"?document.addEventListener("DOMContentLoaded",e):e()}var be=(e,t)=>({postMessage(n,r){e.postMessage({type:n,source:t.settings.source,...r})}});function le(e){let t=document.getElementById("vscode-markdown-preview-data");if(t){let n=t.getAttribute(e);if(n)return JSON.parse(n)}throw new Error(`Could not load data for ${e}`)}var Q=class{constructor(){this._settings=le("data-settings")}get settings(){return this._settings}updateSettings(t){this._settings=t}};var ye=11;function ke(e,t){var n=t.attributes,r,i,a,s,u;if(!(t.nodeType===ye||e.nodeType===ye)){for(var m=n.length-1;m>=0;m--)r=n[m],i=r.name,a=r.namespaceURI,s=r.value,a?(i=r.localName||i,u=e.getAttributeNS(a,i),u!==s&&(r.prefix==="xmlns"&&(i=r.name),e.setAttributeNS(a,i,s))):(u=e.getAttribute(i),u!==s&&e.setAttribute(i,s));for(var d=e.attributes,p=d.length-1;p>=0;p--)r=d[p],i=r.name,a=r.namespaceURI,a?(i=r.localName||i,t.hasAttributeNS(a,i)||e.removeAttributeNS(a,i)):t.hasAttribute(i)||e.removeAttribute(i)}}var Z,Ue="http://www.w3.org/1999/xhtml",w=typeof document>"u"?void 0:document,Fe=!!w&&"content"in w.createElement("template"),We=!!w&&w.createRange&&"createContextualFragment"in w.createRange();function Ve(e){var t=w.createElement("template");return t.innerHTML=e,t.content.childNodes[0]}function je(e){Z||(Z=w.createRange(),Z.selectNode(w.body));var t=Z.createContextualFragment(e);return t.childNodes[0]}function qe(e){var t=w.createElement("body");return t.innerHTML=e,t.childNodes[0]}function Xe(e){return e=e.trim(),Fe?Ve(e):We?je(e):qe(e)}function ee(e,t){var n=e.nodeName,r=t.nodeName,i,a;return n===r?!0:(i=n.charCodeAt(0),a=r.charCodeAt(0),i<=90&&a>=97?n===r.toUpperCase():a<=90&&i>=97?r===n.toUpperCase():!1)}function Ye(e,t){return!t||t===Ue?w.createElement(e):w.createElementNS(t,e)}function ze(e,t){for(var n=e.firstChild;n;){var r=n.nextSibling;t.appendChild(n),n=r}return t}function ce(e,t,n){e[n]!==t[n]&&(e[n]=t[n],e[n]?e.setAttribute(n,""):e.removeAttribute(n))}var Te={OPTION:function(e,t){var n=e.parentNode;if(n){var r=n.nodeName.toUpperCase();r==="OPTGROUP"&&(n=n.parentNode,r=n&&n.nodeName.toUpperCase()),r==="SELECT"&&!n.hasAttribute("multiple")&&(e.hasAttribute("selected")&&!t.selected&&(e.setAttribute("selected","selected"),e.removeAttribute("selected")),n.selectedIndex=-1)}ce(e,t,"selected")},INPUT:function(e,t){ce(e,t,"checked"),ce(e,t,"disabled"),e.value!==t.value&&(e.value=t.value),t.hasAttribute("value")||e.removeAttribute("value")},TEXTAREA:function(e,t){var n=t.value;e.value!==n&&(e.value=n);var r=e.firstChild;if(r){var i=r.nodeValue;if(i==n||!n&&i==e.placeholder)return;r.nodeValue=n}},SELECT:function(e,t){if(!t.hasAttribute("multiple")){for(var n=-1,r=0,i=e.firstChild,a,s;i;)if(s=i.nodeName&&i.nodeName.toUpperCase(),s==="OPTGROUP")a=i,i=a.firstChild;else{if(s==="OPTION"){if(i.hasAttribute("selected")){n=r;break}r++}i=i.nextSibling,!i&&a&&(i=a.nextSibling,a=null)}e.selectedIndex=n}}},V=1,Ge=11,we=3,Ee=8;function B(){}function $e(e){if(e)return e.getAttribute&&e.getAttribute("id")||e.id}function Ke(e){return function(n,r,i){if(i||(i={}),typeof r=="string")if(n.nodeName==="#document"||n.nodeName==="HTML"||n.nodeName==="BODY"){var a=r;r=w.createElement("html"),r.innerHTML=a}else r=Xe(r);var s=i.getNodeKey||$e,u=i.onBeforeNodeAdded||B,m=i.onNodeAdded||B,d=i.onBeforeElUpdated||B,p=i.onElUpdated||B,b=i.onBeforeNodeDiscarded||B,T=i.onNodeDiscarded||B,E=i.onBeforeElChildrenUpdated||B,N=i.childrenOnly===!0,g=Object.create(null),S=[];function L(c){S.push(c)}function U(c,l){if(c.nodeType===V)for(var o=c.firstChild;o;){var f=void 0;l&&(f=s(o))?L(f):(T(o),o.firstChild&&U(o,l)),o=o.nextSibling}}function R(c,l,o){b(c)!==!1&&(l&&l.removeChild(c),T(c),U(c,o))}function Y(c){if(c.nodeType===V||c.nodeType===Ge)for(var l=c.firstChild;l;){var o=s(l);o&&(g[o]=l),Y(l),l=l.nextSibling}}Y(n);function I(c){m(c);for(var l=c.firstChild;l;){var o=l.nextSibling,f=s(l);if(f){var x=g[f];x&&ee(l,x)?(l.parentNode.replaceChild(x,l),A(x,l)):I(l)}else I(l);l=o}}function v(c,l,o){for(;l;){var f=l.nextSibling;(o=s(l))?L(o):R(l,c,!0),l=f}}function A(c,l,o){var f=s(l);f&&delete g[f],!(!o&&(d(c,l)===!1||(e(c,l),p(c),E(c,l)===!1)))&&(c.nodeName!=="TEXTAREA"?_(c,l):Te.TEXTAREA(c,l))}function _(c,l){var o=l.firstChild,f=c.firstChild,x,P,k,G,O;e:for(;o;){for(G=o.nextSibling,x=s(o);f;){if(k=f.nextSibling,o.isSameNode&&o.isSameNode(f)){o=G,f=k;continue e}P=s(f);var $=f.nodeType,D=void 0;if($===o.nodeType&&($===V?(x?x!==P&&((O=g[x])?k===O?D=!1:(c.insertBefore(O,f),P?L(P):R(f,c,!0),f=O):D=!1):P&&(D=!1),D=D!==!1&&ee(f,o),D&&A(f,o)):($===we||$==Ee)&&(D=!0,f.nodeValue!==o.nodeValue&&(f.nodeValue=o.nodeValue))),D){o=G,f=k;continue e}P?L(P):R(f,c,!0),f=k}if(x&&(O=g[x])&&ee(O,o))c.appendChild(O),A(O,o);else{var ie=u(o);ie!==!1&&(ie&&(o=ie),o.actualize&&(o=o.actualize(c.ownerDocument||w)),c.appendChild(o),I(o))}o=G,f=k}v(c,f,P);var ge=Te[c.nodeName];ge&&ge(c,l)}var h=n,z=h.nodeType,me=r.nodeType;if(!N){if(z===V)me===V?ee(n,r)||(T(n),h=ze(n,Ye(r.nodeName,r.namespaceURI))):h=r;else if(z===we||z===Ee){if(me===z)return h.nodeValue!==r.nodeValue&&(h.nodeValue=r.nodeValue),h;h=r}}if(h===r)T(n);else{if(r.isSameNode&&r.isSameNode(h))return;if(A(h,r,N),S)for(var ne=0,_e=S.length;ne<_e;ne++){var re=g[S[ne]];re&&R(re,re.parentNode,!1)}}return!N&&h!==n&&n.parentNode&&(h.actualize&&(h=h.actualize(n.ownerDocument||w)),n.parentNode.replaceChild(h,n)),h}}var Je=Ke(ke),Se=Je;var Ce=Me(),H=0,Pe=new J,y=new Q,M=0,j=y.settings.source,q=acquireVsCodeApi(),de=q.getState()??{},C={...de,...le("data-state")};typeof de.scrollProgress<"u"&&de?.resource!==C.resource&&(C.scrollProgress=0);q.setState(C);var X=be(q,y);window.cspAlerter.setPoster(X);window.styleLoadingMonitor.setPoster(X);function fe(e){let t=document.getElementsByTagName("img");if(t.length>0){let n=Array.from(t,r=>r.complete?Promise.resolve():new Promise(i=>{r.addEventListener("load",()=>i()),r.addEventListener("error",()=>i())}));Promise.all(n).then(()=>setTimeout(e,0))}else setTimeout(e,0)}he(()=>{let e=C.scrollProgress;if(Oe(),typeof e=="number"&&!y.settings.fragment){fe(()=>{H+=1;let t=Math.max(1,e*document.body.clientHeight);window.scrollTo(0,t)});return}y.settings.scrollPreviewWithEditor&&fe(()=>{if(y.settings.fragment){let t;try{t=encodeURIComponent(y.settings.fragment)}catch{t=y.settings.fragment}C.fragment=void 0,q.setState(C);let n=ve(t,M);n&&(H+=1,K(n.line,M,y))}else isNaN(y.settings.line)||(H+=1,K(y.settings.line,M,y))}),typeof y.settings.selectedLine=="number"&&Pe.onDidChangeTextEditorSelection(y.settings.selectedLine,M)});var pt=(()=>{let e=Ce(t=>{H+=1,fe(()=>K(t,M,y))},50);return t=>{isNaN(t)||(C.line=t,e(t))}})();window.addEventListener("resize",()=>{H+=1,Ie()},!0);function Oe(){let e=document.getElementsByTagName("img"),t=0;for(let n of e)n.id="image-"+t,t+=1,n.setAttribute("data-vscode-context",JSON.stringify({webviewSection:"image",id:n.id,preventDefaultContextMenuItems:!0,resource:j}))}async function De(e,t=5){if(!document.hasFocus()&&t>0){setTimeout(()=>{De(e,t-1)},20);return}try{await navigator.clipboard.write([new ClipboardItem({"image/png":new Promise(n=>{let r=document.createElement("canvas");r!==null&&(r.width=e.naturalWidth,r.height=e.naturalHeight,r.getContext("2d")?.drawImage(e,0,0)),r.toBlob(i=>{i&&n(i),r.remove()},"image/png")})})])}catch(n){console.error(n)}}window.addEventListener("message",async e=>{let t=e.data;switch(t.type){case"copyImage":{let n=document.getElementById(t.id);n instanceof HTMLImageElement&&De(n);return}case"onDidChangeTextEditorSelection":t.source===j&&Pe.onDidChangeTextEditorSelection(t.line,M);return;case"updateView":t.source===j&&pt(t.line);return;case"updateContent":{let n=document.querySelector(".markdown-body"),i=new DOMParser().parseFromString(t.content,"text/html");for(let a of Array.from(i.querySelectorAll("meta")))a.hasAttribute("http-equiv")&&a.remove();if(t.source!==j)n.replaceWith(i.querySelector(".markdown-body")),j=t.source;else{let a=["open"],s=(d,p)=>{if(d.isEqualNode(p))return!0;if(d.tagName!==p.tagName||d.textContent!==p.textContent)return!1;let b=[...d.attributes].filter(g=>!a.includes(g.name)),T=[...p.attributes].filter(g=>!a.includes(g.name));if(b.length!==T.length)return!1;for(let g=0;g<b.length;++g){let S=b[g],L=T[g];if(S.name!==L.name||S.value!==L.value&&S.name!=="data-line")return!1}let E=Array.from(d.children),N=Array.from(p.children);return E.length===N.length&&E.every((g,S)=>s(g,N[S]))},u=i.querySelector(".markdown-body"),m=u.querySelectorAll("link");for(let d of m)d.remove();u.prepend(...m),Se(n,u,{childrenOnly:!0,onBeforeElUpdated:(d,p)=>{if(s(d,p)){let b=d.querySelectorAll("[data-line]"),T=p.querySelectorAll("[data-line]");b.length!==T.length&&console.log("unexpected line number change");for(let E=0;E<b.length;++E){let N=b[E],g=T[E];g&&N.setAttribute("data-line",g.getAttribute("data-line"))}return!1}return d.tagName==="DETAILS"&&p.tagName==="DETAILS"&&d.hasAttribute("open")&&p.setAttribute("open",""),!0}})}++M,window.dispatchEvent(new CustomEvent("vscode.markdown.updateContent")),Oe();break}}},!1);document.addEventListener("dblclick",e=>{if(!y.settings.doubleClickToSwitchToEditor)return;for(let r=e.target;r;r=r.parentNode)if(r.tagName==="A")return;let t=e.pageY,n=se(t,M);typeof n=="number"&&!isNaN(n)&&X.postMessage("didClick",{line:Math.floor(n)})});var vt=["http:","https:","mailto:","vscode:","vscode-insiders:"];document.addEventListener("click",e=>{if(!e)return;let t=e.target;for(;t;){if(t.tagName&&t.tagName==="A"&&t.href){if(t.getAttribute("href").startsWith("#"))return;let n=t.getAttribute("data-href");if(!n){if(vt.some(r=>t.href.startsWith(r)))return;n=t.getAttribute("href")}if(!/^[a-z\-]+:/i.test(n)){X.postMessage("openLink",{href:n}),e.preventDefault(),e.stopPropagation();return}return}t=t.parentNode}},!0);window.addEventListener("scroll",Ce(()=>{if(Ie(),H>0)H-=1;else{let e=se(window.scrollY,M);typeof e=="number"&&!isNaN(e)&&X.postMessage("revealLine",{line:e})}},50));function Ie(){C.scrollProgress=window.scrollY/document.body.clientHeight,q.setState(C)}
