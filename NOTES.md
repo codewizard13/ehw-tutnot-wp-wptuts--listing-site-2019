@@ -186,11 +186,25 @@ NEXT: Creating custom taxonomies
 
 - Now if we add a new property, we will see the "Property Types" selector metabox on the right
 
-#### Creating some dummy posts
+#### Creating a property: Apartment
 
 - Ground Apartment, 2 para, price 350k, London, add 4 pix in gallery
-- Beach Front Studio, Bristol
-- Modern House, Cardiff
+- Add filler text in content
+- Prop Type: Apartments
+- Choose Featured image
+- Price: 350000
+- Location: London
+- Gallery: Choose a few images
+- PUBLISH
+
+---
+
+#### ADD a few more properties:
+
+- Beach Front Studio, Bristol, 1,350,880
+- Modern House, Cardiff, 1,209,771
+- Beachfront Condo, Miami, Fl, 250,899
+- Farmhouse in Kent, 1,322,900
 
 - Now look at Properties list page and all our relevant info should be in the columns
 
